@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "key": "real-orchard-rows-01",
+      "source": "Data/images/img-1781540316306.jpg",
+      "width": 1600,
+      "height": 707,
+      "croppedBottomRatio": 0.12,
+      "note": "已裁掉手机水印底栏"
+    },
+    {
+      "key": "real-tree-portrait-01",
+      "source": "Data/images/img-1781925763616.jpg",
+      "width": 752,
+      "height": 1600,
+      "croppedBottomRatio": 0.09,
+      "note": "已裁掉手机水印底栏"
+    },
+    {
+      "key": "real-stove-01",
+      "source": "Data/images/img-1781628760086.jpg",
+      "width": 1600,
+      "height": 720,
+      "croppedBottomRatio": 0.0,
+      "note": "原图"
+    }
+  ]
+}

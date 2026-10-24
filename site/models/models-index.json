@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "key": "model.treeLow",
+      "file": "tree-low.glb",
+      "placeholder": true,
+      "height": 3.8,
+      "triangles": 276,
+      "use": "远景/实例化",
+      "replaceWith": "真实低模 GLTF/GLB，建议 < 800 三角面"
+    },
+    {
+      "key": "model.treeHigh",
+      "file": "tree-high.glb",
+      "placeholder": true,
+      "height": 4.0,
+      "triangles": 1808,
+      "use": "选中树近景",
+      "replaceWith": "真实高模 GLTF/GLB，建议 < 15k 三角面"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "key": "placeholder-jabuticaba-closeup",
+      "label": "嘉宝果特写（占位）",
+      "source": "photos/placeholder/_source/jabuticaba-closeup.jpg",
+      "width": 1680,
+      "height": 2240,
+      "defaultWidth": 1280,
+      "sizes": [
+        640,
+        960,
+        1280
+      ],
+      "placeholder": true
+    },
+    {
+      "key": "placeholder-picking",
+      "label": "采摘体验（占位）",
+      "source": "photos/placeholder/_source/picking.jpg",
+      "width": 2240,
+      "height": 1680,
+      "defaultWidth": 1600,
+      "sizes": [
+        960,
+        1280,
+        1600
+      ],
+      "placeholder": true
+    },
+    {
+      "key": "placeholder-stove-courtyard",
+      "label": "柴火灶庭院（占位）",
+      "source": "photos/placeholder/_source/stove-courtyard.jpg",
+      "width": 2240,
+      "height": 1680,
+      "defaultWidth": 1600,
+      "sizes": [
+        960,
+        1280,
+        1600
+      ],
+      "placeholder": true
+    },
+    {
+      "key": "placeholder-entrance",
+      "label": "园区入口（占位）",
+      "source": "photos/placeholder/_source/entrance.jpg",
+      "width": 2240,
+      "height": 1680,
+      "defaultWidth": 1600,
+      "sizes": [
+        960,
+        1280,
+        1600
+      ],
+      "placeholder": true
+    },
+    {
+      "key": "placeholder-tree-default",
+      "label": "默认树木照片（占位）",
+      "source": "photos/placeholder/_source/tree-default.jpg",
+      "width": 1680,
+      "height": 2240,
+      "defaultWidth": 1280,
+      "sizes": [
+        640,
+        960,
+        1280
+      ],
+      "placeholder": true
+    }
+  ]
+}

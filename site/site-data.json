@@ -1,0 +1,4213 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generatedAt": "2026-10-24T15:59:57.785Z",
+    "dataSource": "Data/trees.json + Data/settings.json + site-assets/",
+    "treeCount": 135,
+    "locatedCount": 98,
+    "dotCount": 98,
+    "treeMappingNote": "3D 树位置来自航拍检测到的 98 个树位点；树身份按全局仿射最近邻匹配，相邻同品种树可能互换，不影响展示。",
+    "placeholderNotice": "页面中的 AI 图片与占位 Logo/二维码/3D 模型在替换前以“示意图”标注。"
+  },
+  "site": {
+    "name": "青雲嘉宝果园",
+    "tagline": "嘉宝果 · 数字果园",
+    "intro": "青雲嘉宝果园位于广西桂林灵川，依山而种，以沙巴嘉宝果为主。我们用真实航拍与数字孪生，让每一棵果树都能被看见、被了解。",
+    "location": "广西桂林 · 灵川",
+    "address": "广西桂林市灵川县（详细地址待补充）",
+    "addressPending": true,
+    "phone": "",
+    "phonePending": true,
+    "hours": "9:00 – 18:00（采摘季以现场公告为准）",
+    "logo": "brand/placeholder-logo.svg",
+    "logoMark": "brand/placeholder-logo-mark-512.png",
+    "wechatQr": "brand/placeholder-wechat-qr.png",
+    "ogImage": "share/og-cover.jpg"
+  },
+  "stats": [
+    {
+      "value": "135",
+      "label": "在册果树"
+    },
+    {
+      "value": "98",
+      "label": "数字标注"
+    },
+    {
+      "value": "95",
+      "label": "结果树"
+    },
+    {
+      "value": "40",
+      "label": "中苗树"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "adoption",
+      "icon": "tree",
+      "tag": "年度认养",
+      "title": "包树认养",
+      "desc": "按年认养一棵属于自己的嘉宝果树，见证开花、挂果与采摘。具体方案与权益到园咨询。",
+      "action": "咨询认养"
+    },
+    {
+      "id": "picking",
+      "icon": "basket",
+      "tag": "应季开放",
+      "title": "采摘体验",
+      "desc": "嘉宝果成熟时入园采摘，按品种与重量计价；适合亲子、朋友结伴出行。",
+      "action": "咨询采摘"
+    },
+    {
+      "id": "stove",
+      "icon": "fire",
+      "tag": "需提前预约",
+      "title": "柴火饭",
+      "desc": "果园旁的柴火灶，提前预约灶位，用当季食材做一桌慢火饭菜。",
+      "action": "咨询灶位"
+    }
+  ],
+  "map": {
+    "aerial": {
+      "primary": "maps/aerial-clean-1920.webp",
+      "width": 1920,
+      "height": 1079,
+      "webp": [
+        "maps/aerial-clean-640.webp",
+        "maps/aerial-clean-960.webp",
+        "maps/aerial-clean-1280.webp",
+        "maps/aerial-clean-1920.webp"
+      ],
+      "jpg": [
+        "maps/aerial-clean-640.jpg",
+        "maps/aerial-clean-960.jpg",
+        "maps/aerial-clean-1280.jpg",
+        "maps/aerial-clean-1920.jpg"
+      ]
+    },
+    "schematicOriginal": {
+      "primary": "maps/schematic-original-1280.webp",
+      "width": 1280,
+      "height": 1287,
+      "webp": [
+        "maps/schematic-original-640.webp",
+        "maps/schematic-original-960.webp",
+        "maps/schematic-original-1280.webp"
+      ],
+      "jpg": [
+        "maps/schematic-original-640.jpg",
+        "maps/schematic-original-960.jpg",
+        "maps/schematic-original-1280.jpg"
+      ]
+    },
+    "schematicClean": {
+      "primary": "maps/schematic-clean-1280.webp",
+      "width": 1280,
+      "height": 1287,
+      "webp": [
+        "maps/schematic-clean-640.webp",
+        "maps/schematic-clean-960.webp",
+        "maps/schematic-clean-1280.webp"
+      ],
+      "jpg": [
+        "maps/schematic-clean-640.jpg",
+        "maps/schematic-clean-960.jpg",
+        "maps/schematic-clean-1280.jpg"
+      ]
+    },
+    "boundary": {
+      "polygonPx": [
+        [
+          1199,
+          81.5
+        ],
+        [
+          1030.5,
+          641
+        ],
+        [
+          1270,
+          697.5
+        ],
+        [
+          1693,
+          1199.5
+        ],
+        [
+          1748,
+          1187.5
+        ],
+        [
+          1786,
+          1171.5
+        ],
+        [
+          1810,
+          1156.5
+        ],
+        [
+          1829.5,
+          1139
+        ],
+        [
+          1841.5,
+          1123
+        ],
+        [
+          1848.5,
+          1106
+        ],
+        [
+          1802.5,
+          1006
+        ],
+        [
+          1775.5,
+          941
+        ],
+        [
+          1790.5,
+          727
+        ],
+        [
+          1810.5,
+          700
+        ],
+        [
+          1812.5,
+          680
+        ],
+        [
+          1755.5,
+          635
+        ],
+        [
+          1756.5,
+          604
+        ],
+        [
+          1749.5,
+          426
+        ],
+        [
+          1546,
+          439.5
+        ],
+        [
+          1544.5,
+          428
+        ],
+        [
+          1558,
+          366.5
+        ],
+        [
+          1398,
+          357.5
+        ],
+        [
+          1395.5,
+          354
+        ],
+        [
+          1393.5,
+          242
+        ],
+        [
+          1332,
+          217.5
+        ],
+        [
+          1327,
+          217.5
+        ],
+        [
+          1324.5,
+          214
+        ],
+        [
+          1324.5,
+          206
+        ],
+        [
+          1327.5,
+          201
+        ],
+        [
+          1349.5,
+          111
+        ]
+      ],
+      "image": {
+        "width": 2275,
+        "height": 1279
+      }
+    },
+    "dots": [
+      {
+        "u": 0.664937,
+        "v": 0.609774
+      },
+      {
+        "u": 0.671648,
+        "v": 0.500391
+      },
+      {
+        "u": 0.514322,
+        "v": 0.39243
+      },
+      {
+        "u": 0.661935,
+        "v": 0.663591
+      },
+      {
+        "u": 0.706351,
+        "v": 0.40336
+      },
+      {
+        "u": 0.552097,
+        "v": 0.432284
+      },
+      {
+        "u": 0.720852,
+        "v": 0.418998
+      },
+      {
+        "u": 0.490963,
+        "v": 0.414478
+      },
+      {
+        "u": 0.672066,
+        "v": 0.581658
+      },
+      {
+        "u": 0.69272,
+        "v": 0.596315
+      },
+      {
+        "u": 0.659807,
+        "v": 0.317531
+      },
+      {
+        "u": 0.590769,
+        "v": 0.337764
+      },
+      {
+        "u": 0.508168,
+        "v": 0.42996
+      },
+      {
+        "u": 0.681231,
+        "v": 0.419859
+      },
+      {
+        "u": 0.54989,
+        "v": 0.219074
+      },
+      {
+        "u": 0.580211,
+        "v": 0.499693
+      },
+      {
+        "u": 0.566154,
+        "v": 0.236248
+      },
+      {
+        "u": 0.64044,
+        "v": 0.299636
+      },
+      {
+        "u": 0.748544,
+        "v": 0.404922
+      },
+      {
+        "u": 0.570521,
+        "v": 0.321511
+      },
+      {
+        "u": 0.667596,
+        "v": 0.703518
+      },
+      {
+        "u": 0.545426,
+        "v": 0.340447
+      },
+      {
+        "u": 0.637852,
+        "v": 0.42609
+      },
+      {
+        "u": 0.691868,
+        "v": 0.514464
+      },
+      {
+        "u": 0.562673,
+        "v": 0.359592
+      },
+      {
+        "u": 0.57011,
+        "v": 0.443099
+      },
+      {
+        "u": 0.52957,
+        "v": 0.324774
+      },
+      {
+        "u": 0.527481,
+        "v": 0.444962
+      },
+      {
+        "u": 0.504104,
+        "v": 0.343365
+      },
+      {
+        "u": 0.485275,
+        "v": 0.446615
+      },
+      {
+        "u": 0.695385,
+        "v": 0.353401
+      },
+      {
+        "u": 0.686199,
+        "v": 0.627675
+      },
+      {
+        "u": 0.613582,
+        "v": 0.447879
+      },
+      {
+        "u": 0.643516,
+        "v": 0.508823
+      },
+      {
+        "u": 0.661978,
+        "v": 0.52932
+      },
+      {
+        "u": 0.502418,
+        "v": 0.459734
+      },
+      {
+        "u": 0.544218,
+        "v": 0.249452
+      },
+      {
+        "u": 0.582271,
+        "v": 0.244099
+      },
+      {
+        "u": 0.592924,
+        "v": 0.551025
+      },
+      {
+        "u": 0.743736,
+        "v": 0.434715
+      },
+      {
+        "u": 0.605275,
+        "v": 0.516028
+      },
+      {
+        "u": 0.583782,
+        "v": 0.368305
+      },
+      {
+        "u": 0.559077,
+        "v": 0.26526
+      },
+      {
+        "u": 0.518952,
+        "v": 0.276298
+      },
+      {
+        "u": 0.608352,
+        "v": 0.354272
+      },
+      {
+        "u": 0.644387,
+        "v": 0.363478
+      },
+      {
+        "u": 0.700615,
+        "v": 0.438584
+      },
+      {
+        "u": 0.638198,
+        "v": 0.632316
+      },
+      {
+        "u": 0.520926,
+        "v": 0.358107
+      },
+      {
+        "u": 0.538022,
+        "v": 0.375293
+      },
+      {
+        "u": 0.629486,
+        "v": 0.461234
+      },
+      {
+        "u": 0.682152,
+        "v": 0.544827
+      },
+      {
+        "u": 0.655824,
+        "v": 0.442533
+      },
+      {
+        "u": 0.51956,
+        "v": 0.475985
+      },
+      {
+        "u": 0.711145,
+        "v": 0.532154
+      },
+      {
+        "u": 0.588168,
+        "v": 0.461234
+      },
+      {
+        "u": 0.639441,
+        "v": 0.548945
+      },
+      {
+        "u": 0.654484,
+        "v": 0.561299
+      },
+      {
+        "u": 0.555639,
+        "v": 0.180974
+      },
+      {
+        "u": 0.573132,
+        "v": 0.202011
+      },
+      {
+        "u": 0.497096,
+        "v": 0.383127
+      },
+      {
+        "u": 0.545934,
+        "v": 0.462862
+      },
+      {
+        "u": 0.562354,
+        "v": 0.481004
+      },
+      {
+        "u": 0.73978,
+        "v": 0.470081
+      },
+      {
+        "u": 0.605387,
+        "v": 0.268361
+      },
+      {
+        "u": 0.716448,
+        "v": 0.369102
+      },
+      {
+        "u": 0.731864,
+        "v": 0.383803
+      },
+      {
+        "u": 0.603956,
+        "v": 0.390804
+      },
+      {
+        "u": 0.644431,
+        "v": 0.390994
+      },
+      {
+        "u": 0.534272,
+        "v": 0.402841
+      },
+      {
+        "u": 0.763349,
+        "v": 0.454914
+      },
+      {
+        "u": 0.685714,
+        "v": 0.464425
+      },
+      {
+        "u": 0.6254,
+        "v": 0.492572
+      },
+      {
+        "u": 0.511622,
+        "v": 0.312948
+      },
+      {
+        "u": 0.569643,
+        "v": 0.113785
+      },
+      {
+        "u": 0.608791,
+        "v": 0.563722
+      },
+      {
+        "u": 0.576192,
+        "v": 0.286241
+      },
+      {
+        "u": 0.667253,
+        "v": 0.373729
+      },
+      {
+        "u": 0.593416,
+        "v": 0.208969
+      },
+      {
+        "u": 0.650032,
+        "v": 0.593064
+      },
+      {
+        "u": 0.558799,
+        "v": 0.394135
+      },
+      {
+        "u": 0.702211,
+        "v": 0.569195
+      },
+      {
+        "u": 0.63072,
+        "v": 0.573744
+      },
+      {
+        "u": 0.649303,
+        "v": 0.475435
+      },
+      {
+        "u": 0.605239,
+        "v": 0.479169
+      },
+      {
+        "u": 0.679517,
+        "v": 0.663591
+      },
+      {
+        "u": 0.597848,
+        "v": 0.302629
+      },
+      {
+        "u": 0.613672,
+        "v": 0.31522
+      },
+      {
+        "u": 0.667253,
+        "v": 0.40344
+      },
+      {
+        "u": 0.564352,
+        "v": 0.141814
+      },
+      {
+        "u": 0.552932,
+        "v": 0.309679
+      },
+      {
+        "u": 0.702418,
+        "v": 0.48319
+      },
+      {
+        "u": 0.621978,
+        "v": 0.412791
+      },
+      {
+        "u": 0.577628,
+        "v": 0.410437
+      },
+      {
+        "u": 0.523948,
+        "v": 0.240197
+      },
+      {
+        "u": 0.623641,
+        "v": 0.536357
+      },
+      {
+        "u": 0.626274,
+        "v": 0.376033
+      },
+      {
+        "u": 0.690075,
+        "v": 0.388462
+      }
+    ],
+    "calibration": {
+      "source_space": {
+        "type": "schematic",
+        "width": 1600,
+        "height": 1609
+      },
+      "target_space": {
+        "type": "aerial",
+        "width": 2275,
+        "height": 1279
+      },
+      "tree_count": 98,
+      "transform": {
+        "a": 0.3846594862619143,
+        "b": 0.013961936946417678,
+        "c": 0.44855994071861444,
+        "d": 0.0814862746293573,
+        "e": 0.760067842409835,
+        "f": 0.06622158271161754
+      },
+      "formula": {
+        "input": "xn = tree.x / 1600, zn = tree.z / 1609",
+        "aerial_norm": "u = a*xn + b*zn + c; v = d*xn + e*zn + f",
+        "aerial_px": "px = u * 2275; py = v * 1279"
+      },
+      "fit": {
+        "median_error_norm": 0.01167,
+        "p90_error_norm": 0.01688,
+        "inliers_2pct": 93,
+        "total": 98
+      }
+    }
+  },
+  "trees": [
+    {
+      "id": "tree-0001",
+      "displayId": "T1-1",
+      "name": "沙巴树 1",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-05-26",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/real/real-tree-portrait-01.webp",
+      "located": true,
+      "row": 1,
+      "col": 1,
+      "schematic": {
+        "u": 0.143125,
+        "v": 0.266004
+      },
+      "aerial": {
+        "u": 0.605387,
+        "v": 0.268361
+      },
+      "dotIndex": 64
+    },
+    {
+      "id": "tree-0002",
+      "displayId": "T1-2",
+      "name": "沙巴树 2",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-05-26",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 2,
+      "schematic": {
+        "u": 0.145625,
+        "v": 0.311374
+      },
+      "aerial": {
+        "u": 0.511622,
+        "v": 0.312948
+      },
+      "dotIndex": 73
+    },
+    {
+      "id": "tree-0003",
+      "displayId": "T1-3",
+      "name": "沙巴树 3",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-06-13",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 3,
+      "schematic": {
+        "u": 0.143125,
+        "v": 0.359851
+      },
+      "aerial": {
+        "u": 0.504104,
+        "v": 0.343365
+      },
+      "dotIndex": 28
+    },
+    {
+      "id": "tree-0004",
+      "displayId": "T1-4",
+      "name": "沙巴树 4",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-15",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 4,
+      "schematic": {
+        "u": 0.1375,
+        "v": 0.40087
+      },
+      "aerial": {
+        "u": 0.497096,
+        "v": 0.383127
+      },
+      "dotIndex": 60
+    },
+    {
+      "id": "tree-0005",
+      "displayId": "T1-5",
+      "name": "沙巴树 5",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-05-17",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 5,
+      "schematic": {
+        "u": 0.13625,
+        "v": 0.451833
+      },
+      "aerial": {
+        "u": 0.508168,
+        "v": 0.42996
+      },
+      "dotIndex": 12
+    },
+    {
+      "id": "tree-0006",
+      "displayId": "T1-6",
+      "name": "沙巴树 6",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-09-12",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 6,
+      "schematic": {
+        "u": 0.13375,
+        "v": 0.493474
+      },
+      "aerial": {
+        "u": 0.502418,
+        "v": 0.459734
+      },
+      "dotIndex": 35
+    },
+    {
+      "id": "tree-0007",
+      "displayId": "T1-7",
+      "name": "沙巴树 7",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-03-22",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 1,
+      "col": 7,
+      "schematic": {
+        "u": 0.13375,
+        "v": 0.536358
+      },
+      "aerial": {
+        "u": 0.485275,
+        "v": 0.446615
+      },
+      "dotIndex": 29
+    },
+    {
+      "id": "tree-0008",
+      "displayId": "T2-1",
+      "name": "沙巴树 8",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-01-17",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 1,
+      "schematic": {
+        "u": 0.195625,
+        "v": 0.085768
+      },
+      "aerial": {
+        "u": 0.564352,
+        "v": 0.141814
+      },
+      "dotIndex": 89
+    },
+    {
+      "id": "tree-0009",
+      "displayId": "T2-2",
+      "name": "沙巴树 9",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-09-25",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 2,
+      "schematic": {
+        "u": 0.195,
+        "v": 0.123058
+      },
+      "aerial": {
+        "u": 0.555639,
+        "v": 0.180974
+      },
+      "dotIndex": 58
+    },
+    {
+      "id": "tree-0010",
+      "displayId": "T2-3",
+      "name": "沙巴树 10",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-06-10",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 3,
+      "schematic": {
+        "u": 0.19,
+        "v": 0.174643
+      },
+      "aerial": {
+        "u": 0.573132,
+        "v": 0.202011
+      },
+      "dotIndex": 59
+    },
+    {
+      "id": "tree-0011",
+      "displayId": "T2-4",
+      "name": "沙巴树 11",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-05-06",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 4,
+      "schematic": {
+        "u": 0.190625,
+        "v": 0.223741
+      },
+      "aerial": {
+        "u": 0.523948,
+        "v": 0.240197
+      },
+      "dotIndex": 94
+    },
+    {
+      "id": "tree-0012",
+      "displayId": "T2-5",
+      "name": "沙巴树 12",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-12-12",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 5,
+      "schematic": {
+        "u": 0.19,
+        "v": 0.264139
+      },
+      "aerial": {
+        "u": 0.518952,
+        "v": 0.276298
+      },
+      "dotIndex": 43
+    },
+    {
+      "id": "tree-0013",
+      "displayId": "T2-6",
+      "name": "沙巴树 13",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-02-15",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 6,
+      "schematic": {
+        "u": 0.185,
+        "v": 0.362337
+      },
+      "aerial": {
+        "u": 0.520926,
+        "v": 0.358107
+      },
+      "dotIndex": 48
+    },
+    {
+      "id": "tree-0014",
+      "displayId": "T2-7",
+      "name": "沙巴树 14",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-11-13",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 7,
+      "schematic": {
+        "u": 0.17875,
+        "v": 0.407707
+      },
+      "aerial": {
+        "u": 0.514322,
+        "v": 0.39243
+      },
+      "dotIndex": 2
+    },
+    {
+      "id": "tree-0015",
+      "displayId": "T2-8",
+      "name": "沙巴树 15",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-03-14",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 8,
+      "schematic": {
+        "u": 0.176875,
+        "v": 0.453076
+      },
+      "aerial": {
+        "u": 0.527481,
+        "v": 0.444962
+      },
+      "dotIndex": 27
+    },
+    {
+      "id": "tree-0016",
+      "displayId": "T2-9",
+      "name": "沙巴树 16",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-08-27",
+      "ageYears": 8,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 9,
+      "schematic": {
+        "u": 0.17625,
+        "v": 0.501554
+      },
+      "aerial": {
+        "u": 0.51956,
+        "v": 0.475985
+      },
+      "dotIndex": 53
+    },
+    {
+      "id": "tree-0017",
+      "displayId": "T2-10",
+      "name": "沙巴树 17",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-09-24",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 2,
+      "col": 10,
+      "schematic": {
+        "u": 0.175625,
+        "v": 0.540709
+      },
+      "aerial": {
+        "u": 0.667596,
+        "v": 0.703518
+      },
+      "dotIndex": 20
+    },
+    {
+      "id": "tree-0018",
+      "displayId": "T3-1",
+      "name": "沙巴树 18",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-12-13",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 1,
+      "schematic": {
+        "u": 0.234375,
+        "v": 0.189559
+      },
+      "aerial": {
+        "u": 0.54989,
+        "v": 0.219074
+      },
+      "dotIndex": 14
+    },
+    {
+      "id": "tree-0019",
+      "displayId": "T3-2",
+      "name": "沙巴树 19",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-06-24",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 2,
+      "schematic": {
+        "u": 0.231875,
+        "v": 0.234929
+      },
+      "aerial": {
+        "u": 0.544218,
+        "v": 0.249452
+      },
+      "dotIndex": 36
+    },
+    {
+      "id": "tree-0020",
+      "displayId": "T3-3",
+      "name": "沙巴树 20",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-11-05",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 3,
+      "schematic": {
+        "u": 0.226875,
+        "v": 0.273462
+      },
+      "aerial": {
+        "u": 0.582271,
+        "v": 0.244099
+      },
+      "dotIndex": 37
+    },
+    {
+      "id": "tree-0021",
+      "displayId": "T3-4",
+      "name": "沙巴树 21",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-12-06",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 4,
+      "schematic": {
+        "u": 0.229375,
+        "v": 0.33064
+      },
+      "aerial": {
+        "u": 0.545426,
+        "v": 0.340447
+      },
+      "dotIndex": 21
+    },
+    {
+      "id": "tree-0022",
+      "displayId": "T3-5",
+      "name": "沙巴树 22",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-11-05",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 5,
+      "schematic": {
+        "u": 0.22375,
+        "v": 0.371038
+      },
+      "aerial": {
+        "u": 0.538022,
+        "v": 0.375293
+      },
+      "dotIndex": 49
+    },
+    {
+      "id": "tree-0023",
+      "displayId": "T3-6",
+      "name": "沙巴树 23",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-15",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 6,
+      "schematic": {
+        "u": 0.220625,
+        "v": 0.416408
+      },
+      "aerial": {
+        "u": 0.534272,
+        "v": 0.402841
+      },
+      "dotIndex": 69
+    },
+    {
+      "id": "tree-0024",
+      "displayId": "T3-7",
+      "name": "沙巴树 24",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-11-10",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 7,
+      "schematic": {
+        "u": 0.2225,
+        "v": 0.453076
+      },
+      "aerial": {
+        "u": 0.552097,
+        "v": 0.432284
+      },
+      "dotIndex": 5
+    },
+    {
+      "id": "tree-0025",
+      "displayId": "T3-8",
+      "name": "沙巴树 25",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-01-25",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 8,
+      "schematic": {
+        "u": 0.2225,
+        "v": 0.507147
+      },
+      "aerial": {
+        "u": 0.545934,
+        "v": 0.462862
+      },
+      "dotIndex": 61
+    },
+    {
+      "id": "tree-0026",
+      "displayId": "T3-9",
+      "name": "沙巴树 26",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-04-17",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 3,
+      "col": 9,
+      "schematic": {
+        "u": 0.216875,
+        "v": 0.54941
+      },
+      "aerial": {
+        "u": 0.638198,
+        "v": 0.632316
+      },
+      "dotIndex": 47
+    },
+    {
+      "id": "tree-0027",
+      "displayId": "T4-2",
+      "name": "沙巴树 27",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-10-06",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 2,
+      "schematic": {
+        "u": 0.269375,
+        "v": 0.233064
+      },
+      "aerial": {
+        "u": 0.559077,
+        "v": 0.26526
+      },
+      "dotIndex": 42
+    },
+    {
+      "id": "tree-0028",
+      "displayId": "T4-3",
+      "name": "沙巴树 28",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-06-16",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 3,
+      "schematic": {
+        "u": 0.270625,
+        "v": 0.287135
+      },
+      "aerial": {
+        "u": 0.552932,
+        "v": 0.309679
+      },
+      "dotIndex": 90
+    },
+    {
+      "id": "tree-0029",
+      "displayId": "T4-4",
+      "name": "沙巴树 29",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-06-12",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 4,
+      "schematic": {
+        "u": 0.27125,
+        "v": 0.333126
+      },
+      "aerial": {
+        "u": 0.52957,
+        "v": 0.324774
+      },
+      "dotIndex": 26
+    },
+    {
+      "id": "tree-0030",
+      "displayId": "T4-5",
+      "name": "沙巴树 30",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-04-18",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 5,
+      "schematic": {
+        "u": 0.268125,
+        "v": 0.383468
+      },
+      "aerial": {
+        "u": 0.558799,
+        "v": 0.394135
+      },
+      "dotIndex": 80
+    },
+    {
+      "id": "tree-0031",
+      "displayId": "T4-6",
+      "name": "沙巴树 31",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-08-18",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 6,
+      "schematic": {
+        "u": 0.271875,
+        "v": 0.427595
+      },
+      "aerial": {
+        "u": 0.490963,
+        "v": 0.414478
+      },
+      "dotIndex": 7
+    },
+    {
+      "id": "tree-0032",
+      "displayId": "T4-7",
+      "name": "沙巴树 32",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-02-26",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 7,
+      "schematic": {
+        "u": 0.27125,
+        "v": 0.477315
+      },
+      "aerial": {
+        "u": 0.57011,
+        "v": 0.443099
+      },
+      "dotIndex": 25
+    },
+    {
+      "id": "tree-0033",
+      "displayId": "T4-8",
+      "name": "沙巴树 33",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-04-06",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 8,
+      "schematic": {
+        "u": 0.26875,
+        "v": 0.517713
+      },
+      "aerial": {
+        "u": 0.562354,
+        "v": 0.481004
+      },
+      "dotIndex": 62
+    },
+    {
+      "id": "tree-0034",
+      "displayId": "T4-1",
+      "name": "沙巴树 34",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-10-03",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 4,
+      "col": 1,
+      "schematic": {
+        "u": 0.280625,
+        "v": 0.183965
+      },
+      "aerial": {
+        "u": 0.566154,
+        "v": 0.236248
+      },
+      "dotIndex": 16
+    },
+    {
+      "id": "tree-0035",
+      "displayId": "T5-1",
+      "name": "沙巴树 35",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-11-23",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 1,
+      "schematic": {
+        "u": 0.32625,
+        "v": 0.24798
+      },
+      "aerial": {
+        "u": 0.576192,
+        "v": 0.286241
+      },
+      "dotIndex": 76
+    },
+    {
+      "id": "tree-0036",
+      "displayId": "T5-2",
+      "name": "沙巴树 36",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-09-30",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 2,
+      "schematic": {
+        "u": 0.323125,
+        "v": 0.29335
+      },
+      "aerial": {
+        "u": 0.570521,
+        "v": 0.321511
+      },
+      "dotIndex": 19
+    },
+    {
+      "id": "tree-0037",
+      "displayId": "T5-3",
+      "name": "沙巴树 37",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-02-21",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 3,
+      "schematic": {
+        "u": 0.320625,
+        "v": 0.339963
+      },
+      "aerial": {
+        "u": 0.562673,
+        "v": 0.359592
+      },
+      "dotIndex": 24
+    },
+    {
+      "id": "tree-0038",
+      "displayId": "T5-4",
+      "name": "沙巴树 38",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-12-19",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 4,
+      "schematic": {
+        "u": 0.31625,
+        "v": 0.38036
+      },
+      "aerial": {
+        "u": 0.593416,
+        "v": 0.208969
+      },
+      "dotIndex": 78
+    },
+    {
+      "id": "tree-0039",
+      "displayId": "T5-5",
+      "name": "沙巴树 39",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-07-13",
+      "ageYears": 8,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 5,
+      "schematic": {
+        "u": 0.318125,
+        "v": 0.435674
+      },
+      "aerial": {
+        "u": 0.577628,
+        "v": 0.410437
+      },
+      "dotIndex": 93
+    },
+    {
+      "id": "tree-0040",
+      "displayId": "T5-6",
+      "name": "沙巴树 40",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-04-17",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 6,
+      "schematic": {
+        "u": 0.31375,
+        "v": 0.478558
+      },
+      "aerial": {
+        "u": 0.569643,
+        "v": 0.113785
+      },
+      "dotIndex": 74
+    },
+    {
+      "id": "tree-0041",
+      "displayId": "T5-7",
+      "name": "沙巴树 41",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-10-28",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 5,
+      "col": 7,
+      "schematic": {
+        "u": 0.31,
+        "v": 0.528278
+      },
+      "aerial": {
+        "u": 0.580211,
+        "v": 0.499693
+      },
+      "dotIndex": 15
+    },
+    {
+      "id": "tree-0042",
+      "displayId": "T6-1",
+      "name": "沙巴树 42",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-11-15",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 6,
+      "col": 1,
+      "schematic": {
+        "u": 0.360625,
+        "v": 0.299565
+      },
+      "aerial": {
+        "u": 0.590769,
+        "v": 0.337764
+      },
+      "dotIndex": 11
+    },
+    {
+      "id": "tree-0043",
+      "displayId": "T6-2",
+      "name": "沙巴树 43",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-07-16",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 6,
+      "col": 2,
+      "schematic": {
+        "u": 0.36375,
+        "v": 0.348664
+      },
+      "aerial": {
+        "u": 0.583782,
+        "v": 0.368305
+      },
+      "dotIndex": 41
+    },
+    {
+      "id": "tree-0044",
+      "displayId": "T6-3",
+      "name": "沙巴树 44",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-02-05",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 6,
+      "col": 3,
+      "schematic": {
+        "u": 0.366875,
+        "v": 0.395898
+      },
+      "aerial": {
+        "u": 0.603956,
+        "v": 0.390804
+      },
+      "dotIndex": 67
+    },
+    {
+      "id": "tree-0045",
+      "displayId": "T6-4",
+      "name": "沙巴树 45",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-07-13",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 6,
+      "col": 4,
+      "schematic": {
+        "u": 0.35875,
+        "v": 0.487881
+      },
+      "aerial": {
+        "u": 0.588168,
+        "v": 0.461234
+      },
+      "dotIndex": 55
+    },
+    {
+      "id": "tree-0046",
+      "displayId": "T6-5",
+      "name": "沙巴树 46",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-05-08",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 6,
+      "col": 5,
+      "schematic": {
+        "u": 0.355,
+        "v": 0.539466
+      },
+      "aerial": {
+        "u": 0.592924,
+        "v": 0.551025
+      },
+      "dotIndex": 38
+    },
+    {
+      "id": "tree-0047",
+      "displayId": "T7-1",
+      "name": "沙巴树 47",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-07-07",
+      "ageYears": 8,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 1,
+      "schematic": {
+        "u": 0.4125,
+        "v": 0.264139
+      },
+      "aerial": {
+        "u": 0.597848,
+        "v": 0.302629
+      },
+      "dotIndex": 86
+    },
+    {
+      "id": "tree-0048",
+      "displayId": "T7-2",
+      "name": "沙巴树 48",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-11-18",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 2,
+      "schematic": {
+        "u": 0.41,
+        "v": 0.36358
+      },
+      "aerial": {
+        "u": 0.613672,
+        "v": 0.31522
+      },
+      "dotIndex": 87
+    },
+    {
+      "id": "tree-0049",
+      "displayId": "T7-3",
+      "name": "沙巴树 49",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-06-13",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 3,
+      "schematic": {
+        "u": 0.413125,
+        "v": 0.410193
+      },
+      "aerial": {
+        "u": 0.763349,
+        "v": 0.454914
+      },
+      "dotIndex": 70
+    },
+    {
+      "id": "tree-0050",
+      "displayId": "T7-4",
+      "name": "沙巴树 50",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-11-13",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 4,
+      "schematic": {
+        "u": 0.408125,
+        "v": 0.457427
+      },
+      "aerial": {
+        "u": 0.613582,
+        "v": 0.447879
+      },
+      "dotIndex": 32
+    },
+    {
+      "id": "tree-0051",
+      "displayId": "T7-5",
+      "name": "沙巴树 51",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-08-27",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 5,
+      "schematic": {
+        "u": 0.401875,
+        "v": 0.500311
+      },
+      "aerial": {
+        "u": 0.605239,
+        "v": 0.479169
+      },
+      "dotIndex": 84
+    },
+    {
+      "id": "tree-0052",
+      "displayId": "T7-6",
+      "name": "沙巴树 52",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-07-26",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 6,
+      "schematic": {
+        "u": 0.41375,
+        "v": 0.543816
+      },
+      "aerial": {
+        "u": 0.605275,
+        "v": 0.516028
+      },
+      "dotIndex": 40
+    },
+    {
+      "id": "tree-0053",
+      "displayId": "T7-7",
+      "name": "沙巴树 53",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-08-19",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 7,
+      "col": 7,
+      "schematic": {
+        "u": 0.400625,
+        "v": 0.592915
+      },
+      "aerial": {
+        "u": 0.608791,
+        "v": 0.563722
+      },
+      "dotIndex": 75
+    },
+    {
+      "id": "tree-0054",
+      "displayId": "T8-1",
+      "name": "沙巴树 54",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-09-23",
+      "ageYears": 8,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 1,
+      "schematic": {
+        "u": 0.46,
+        "v": 0.272219
+      },
+      "aerial": {
+        "u": 0.64044,
+        "v": 0.299636
+      },
+      "dotIndex": 17
+    },
+    {
+      "id": "tree-0055",
+      "displayId": "T8-2",
+      "name": "沙巴树 55",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-12-21",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 2,
+      "schematic": {
+        "u": 0.44375,
+        "v": 0.336855
+      },
+      "aerial": {
+        "u": 0.608352,
+        "v": 0.354272
+      },
+      "dotIndex": 44
+    },
+    {
+      "id": "tree-0056",
+      "displayId": "T8-3",
+      "name": "沙巴树 56",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-07-30",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 3,
+      "schematic": {
+        "u": 0.453125,
+        "v": 0.369795
+      },
+      "aerial": {
+        "u": 0.626274,
+        "v": 0.376033
+      },
+      "dotIndex": 96
+    },
+    {
+      "id": "tree-0057",
+      "displayId": "T8-4",
+      "name": "沙巴树 57",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-12-13",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 4,
+      "schematic": {
+        "u": 0.451875,
+        "v": 0.415786
+      },
+      "aerial": {
+        "u": 0.621978,
+        "v": 0.412791
+      },
+      "dotIndex": 92
+    },
+    {
+      "id": "tree-0058",
+      "displayId": "T8-5",
+      "name": "沙巴树 58",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-08-17",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 5,
+      "schematic": {
+        "u": 0.445625,
+        "v": 0.463021
+      },
+      "aerial": {
+        "u": 0.629486,
+        "v": 0.461234
+      },
+      "dotIndex": 50
+    },
+    {
+      "id": "tree-0059",
+      "displayId": "T8-6",
+      "name": "沙巴树 59",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-04-02",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 6,
+      "schematic": {
+        "u": 0.44875,
+        "v": 0.50404
+      },
+      "aerial": {
+        "u": 0.6254,
+        "v": 0.492572
+      },
+      "dotIndex": 72
+    },
+    {
+      "id": "tree-0060",
+      "displayId": "T8-7",
+      "name": "沙巴树 60",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-07-18",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 7,
+      "schematic": {
+        "u": 0.460625,
+        "v": 0.556868
+      },
+      "aerial": {
+        "u": 0.623641,
+        "v": 0.536357
+      },
+      "dotIndex": 95
+    },
+    {
+      "id": "tree-0061",
+      "displayId": "T8-8",
+      "name": "沙巴树 61",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-11-05",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 8,
+      "col": 8,
+      "schematic": {
+        "u": 0.43875,
+        "v": 0.597887
+      },
+      "aerial": {
+        "u": 0.639441,
+        "v": 0.548945
+      },
+      "dotIndex": 56
+    },
+    {
+      "id": "tree-0062",
+      "displayId": "T9-1",
+      "name": "沙巴树 62",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-09-12",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 1,
+      "schematic": {
+        "u": 0.495625,
+        "v": 0.334991
+      },
+      "aerial": {
+        "u": 0.644387,
+        "v": 0.363478
+      },
+      "dotIndex": 45
+    },
+    {
+      "id": "tree-0063",
+      "displayId": "T9-2",
+      "name": "沙巴树 63",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-21",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 2,
+      "schematic": {
+        "u": 0.506875,
+        "v": 0.371038
+      },
+      "aerial": {
+        "u": 0.644431,
+        "v": 0.390994
+      },
+      "dotIndex": 68
+    },
+    {
+      "id": "tree-0064",
+      "displayId": "T9-3",
+      "name": "沙巴树 64",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-03-20",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 3,
+      "schematic": {
+        "u": 0.495625,
+        "v": 0.424487
+      },
+      "aerial": {
+        "u": 0.637852,
+        "v": 0.42609
+      },
+      "dotIndex": 22
+    },
+    {
+      "id": "tree-0065",
+      "displayId": "T9-4",
+      "name": "沙巴树 65",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-04-24",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 4,
+      "schematic": {
+        "u": 0.493125,
+        "v": 0.467371
+      },
+      "aerial": {
+        "u": 0.649303,
+        "v": 0.475435
+      },
+      "dotIndex": 83
+    },
+    {
+      "id": "tree-0066",
+      "displayId": "T9-5",
+      "name": "沙巴树 66",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-09-06",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 5,
+      "schematic": {
+        "u": 0.493125,
+        "v": 0.510876
+      },
+      "aerial": {
+        "u": 0.643516,
+        "v": 0.508823
+      },
+      "dotIndex": 33
+    },
+    {
+      "id": "tree-0067",
+      "displayId": "T9-6",
+      "name": "沙巴树 67",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-08-03",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 6,
+      "schematic": {
+        "u": 0.499375,
+        "v": 0.561218
+      },
+      "aerial": {
+        "u": 0.63072,
+        "v": 0.573744
+      },
+      "dotIndex": 82
+    },
+    {
+      "id": "tree-0068",
+      "displayId": "T9-7",
+      "name": "沙巴树 68",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-16",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 9,
+      "col": 7,
+      "schematic": {
+        "u": 0.48875,
+        "v": 0.596644
+      },
+      "aerial": {
+        "u": 0.654484,
+        "v": 0.561299
+      },
+      "dotIndex": 57
+    },
+    {
+      "id": "tree-0069",
+      "displayId": "T11-9",
+      "name": "沙巴树 69",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-09-17",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 9,
+      "schematic": {
+        "u": 0.525625,
+        "v": 0.66128
+      },
+      "aerial": {
+        "u": 0.664937,
+        "v": 0.609774
+      },
+      "dotIndex": 0
+    },
+    {
+      "id": "tree-0070",
+      "displayId": "T10-1",
+      "name": "沙巴树 70",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-04-27",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 10,
+      "col": 1,
+      "schematic": {
+        "u": 0.548125,
+        "v": 0.292728
+      },
+      "aerial": {
+        "u": 0.659807,
+        "v": 0.317531
+      },
+      "dotIndex": 10
+    },
+    {
+      "id": "tree-0071",
+      "displayId": "T10-2",
+      "name": "沙巴树 71",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-05-02",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 10,
+      "col": 2,
+      "schematic": {
+        "u": 0.549375,
+        "v": 0.33872
+      },
+      "aerial": {
+        "u": 0.667253,
+        "v": 0.373729
+      },
+      "dotIndex": 77
+    },
+    {
+      "id": "tree-0072",
+      "displayId": "T10-3",
+      "name": "沙巴树 72",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-10-08",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 10,
+      "col": 3,
+      "schematic": {
+        "u": 0.541875,
+        "v": 0.380982
+      },
+      "aerial": {
+        "u": 0.667253,
+        "v": 0.40344
+      },
+      "dotIndex": 88
+    },
+    {
+      "id": "tree-0073",
+      "displayId": "T11-5",
+      "name": "沙巴树 73",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-09-11",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 5,
+      "schematic": {
+        "u": 0.549375,
+        "v": 0.48353
+      },
+      "aerial": {
+        "u": 0.73978,
+        "v": 0.470081
+      },
+      "dotIndex": 63
+    },
+    {
+      "id": "tree-0074",
+      "displayId": "T11-6",
+      "name": "沙巴树 74",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-01-06",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 6,
+      "schematic": {
+        "u": 0.54,
+        "v": 0.525171
+      },
+      "aerial": {
+        "u": 0.671648,
+        "v": 0.500391
+      },
+      "dotIndex": 1
+    },
+    {
+      "id": "tree-0075",
+      "displayId": "T11-7",
+      "name": "沙巴树 75",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-01",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 7,
+      "schematic": {
+        "u": 0.535625,
+        "v": 0.567433
+      },
+      "aerial": {
+        "u": 0.661978,
+        "v": 0.52932
+      },
+      "dotIndex": 34
+    },
+    {
+      "id": "tree-0076",
+      "displayId": "T11-8",
+      "name": "沙巴树 76",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-12-21",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 8,
+      "schematic": {
+        "u": 0.536875,
+        "v": 0.607831
+      },
+      "aerial": {
+        "u": 0.650032,
+        "v": 0.593064
+      },
+      "dotIndex": 79
+    },
+    {
+      "id": "tree-0077",
+      "displayId": "T11-2",
+      "name": "沙巴树 77",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-01-12",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 2,
+      "schematic": {
+        "u": 0.59,
+        "v": 0.346178
+      },
+      "aerial": {
+        "u": 0.731864,
+        "v": 0.383803
+      },
+      "dotIndex": 66
+    },
+    {
+      "id": "tree-0078",
+      "displayId": "T11-3",
+      "name": "沙巴树 78",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-04-15",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 3,
+      "schematic": {
+        "u": 0.59,
+        "v": 0.391548
+      },
+      "aerial": {
+        "u": 0.681231,
+        "v": 0.419859
+      },
+      "dotIndex": 13
+    },
+    {
+      "id": "tree-0079",
+      "displayId": "T11-4",
+      "name": "沙巴树 79",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-06-10",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 4,
+      "schematic": {
+        "u": 0.5675,
+        "v": 0.431324
+      },
+      "aerial": {
+        "u": 0.655824,
+        "v": 0.442533
+      },
+      "dotIndex": 52
+    },
+    {
+      "id": "tree-0080",
+      "displayId": "T12-5",
+      "name": "沙巴树 80",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-03-07",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 5,
+      "schematic": {
+        "u": 0.588125,
+        "v": 0.530143
+      },
+      "aerial": {
+        "u": 0.691868,
+        "v": 0.514464
+      },
+      "dotIndex": 23
+    },
+    {
+      "id": "tree-0081",
+      "displayId": "T12-6",
+      "name": "沙巴树 81",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-02-27",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 6,
+      "schematic": {
+        "u": 0.580625,
+        "v": 0.580485
+      },
+      "aerial": {
+        "u": 0.682152,
+        "v": 0.544827
+      },
+      "dotIndex": 51
+    },
+    {
+      "id": "tree-0082",
+      "displayId": "T12-7",
+      "name": "沙巴树 82",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-04-11",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 7,
+      "schematic": {
+        "u": 0.575,
+        "v": 0.618397
+      },
+      "aerial": {
+        "u": 0.672066,
+        "v": 0.581658
+      },
+      "dotIndex": 8
+    },
+    {
+      "id": "tree-0083",
+      "displayId": "T12-8",
+      "name": "沙巴树 83",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-05-23",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 8,
+      "schematic": {
+        "u": 0.5875,
+        "v": 0.684276
+      },
+      "aerial": {
+        "u": 0.686199,
+        "v": 0.627675
+      },
+      "dotIndex": 31
+    },
+    {
+      "id": "tree-0084",
+      "displayId": "T11-1",
+      "name": "沙巴树 84",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2018-06-19",
+      "ageYears": 8,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 11,
+      "col": 1,
+      "schematic": {
+        "u": 0.59875,
+        "v": 0.298322
+      },
+      "aerial": {
+        "u": 0.743736,
+        "v": 0.434715
+      },
+      "dotIndex": 39
+    },
+    {
+      "id": "tree-0085",
+      "displayId": "T12-4",
+      "name": "沙巴树 85",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-08-31",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 4,
+      "schematic": {
+        "u": 0.59875,
+        "v": 0.487259
+      },
+      "aerial": {
+        "u": 0.700615,
+        "v": 0.438584
+      },
+      "dotIndex": 46
+    },
+    {
+      "id": "tree-0086",
+      "displayId": "T12-3",
+      "name": "沙巴树 86",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-11-07",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 3,
+      "schematic": {
+        "u": 0.609375,
+        "v": 0.443132
+      },
+      "aerial": {
+        "u": 0.685714,
+        "v": 0.464425
+      },
+      "dotIndex": 71
+    },
+    {
+      "id": "tree-0087",
+      "displayId": "T13-9",
+      "name": "沙巴树 87",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-09-09",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 9,
+      "schematic": {
+        "u": 0.613125,
+        "v": 0.727781
+      },
+      "aerial": {
+        "u": 0.679517,
+        "v": 0.663591
+      },
+      "dotIndex": 85
+    },
+    {
+      "id": "tree-0088",
+      "displayId": "T12-1",
+      "name": "沙巴树 88",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-09-12",
+      "ageYears": 7,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 1,
+      "schematic": {
+        "u": 0.636875,
+        "v": 0.306401
+      },
+      "aerial": {
+        "u": 0.695385,
+        "v": 0.353401
+      },
+      "dotIndex": 30
+    },
+    {
+      "id": "tree-0089",
+      "displayId": "T12-2",
+      "name": "沙巴树 89",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-11-14",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 12,
+      "col": 2,
+      "schematic": {
+        "u": 0.625625,
+        "v": 0.3555
+      },
+      "aerial": {
+        "u": 0.690075,
+        "v": 0.388462
+      },
+      "dotIndex": 97
+    },
+    {
+      "id": "tree-0090",
+      "displayId": "T13-4",
+      "name": "沙巴树 90",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-06-29",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 4,
+      "schematic": {
+        "u": 0.645625,
+        "v": 0.496582
+      },
+      "aerial": {
+        "u": 0.702418,
+        "v": 0.48319
+      },
+      "dotIndex": 91
+    },
+    {
+      "id": "tree-0091",
+      "displayId": "T13-5",
+      "name": "沙巴树 91",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2023-03-28",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 5,
+      "schematic": {
+        "u": 0.639375,
+        "v": 0.546924
+      },
+      "aerial": {
+        "u": 0.711145,
+        "v": 0.532154
+      },
+      "dotIndex": 54
+    },
+    {
+      "id": "tree-0092",
+      "displayId": "T13-6",
+      "name": "沙巴树 92",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2019-11-20",
+      "ageYears": 6,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 6,
+      "schematic": {
+        "u": 0.629375,
+        "v": 0.584214
+      },
+      "aerial": {
+        "u": 0.702211,
+        "v": 0.569195
+      },
+      "dotIndex": 81
+    },
+    {
+      "id": "tree-0093",
+      "displayId": "T13-7",
+      "name": "沙巴树 93",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2020-12-30",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 7,
+      "schematic": {
+        "u": 0.625625,
+        "v": 0.626476
+      },
+      "aerial": {
+        "u": 0.69272,
+        "v": 0.596315
+      },
+      "dotIndex": 9
+    },
+    {
+      "id": "tree-0094",
+      "displayId": "T13-8",
+      "name": "沙巴树 94",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2022-01-23",
+      "ageYears": 4,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 8,
+      "schematic": {
+        "u": 0.624375,
+        "v": 0.673089
+      },
+      "aerial": {
+        "u": 0.661935,
+        "v": 0.663591
+      },
+      "dotIndex": 3
+    },
+    {
+      "id": "tree-0095",
+      "displayId": "T13-1",
+      "name": "沙巴树 95",
+      "variety": "沙巴",
+      "category": "fruiting",
+      "categoryLabel": "结果树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "已挂果 3 年，年产约 15kg",
+      "plantDate": "2021-06-20",
+      "ageYears": 5,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 1,
+      "schematic": {
+        "u": 0.680625,
+        "v": 0.322561
+      },
+      "aerial": {
+        "u": 0.716448,
+        "v": 0.369102
+      },
+      "dotIndex": 65
+    },
+    {
+      "id": "tree-0096",
+      "displayId": "T13-2",
+      "name": "沙巴树 96",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-03-22",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 2,
+      "schematic": {
+        "u": 0.68,
+        "v": 0.361094
+      },
+      "aerial": {
+        "u": 0.706351,
+        "v": 0.40336
+      },
+      "dotIndex": 4
+    },
+    {
+      "id": "tree-0097",
+      "displayId": "T13-3",
+      "name": "沙巴树 97",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-10-09",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 13,
+      "col": 3,
+      "schematic": {
+        "u": 0.685,
+        "v": 0.404599
+      },
+      "aerial": {
+        "u": 0.720852,
+        "v": 0.418998
+      },
+      "dotIndex": 6
+    },
+    {
+      "id": "tree-0098",
+      "displayId": "T14-1",
+      "name": "沙巴树 98",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-21",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": true,
+      "row": 14,
+      "col": 1,
+      "schematic": {
+        "u": 0.729375,
+        "v": 0.372281
+      },
+      "aerial": {
+        "u": 0.748544,
+        "v": 0.404922
+      },
+      "dotIndex": 18
+    },
+    {
+      "id": "tree-0099",
+      "displayId": "T0099",
+      "name": "沙巴树 99",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-10-24",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0100",
+      "displayId": "T0100",
+      "name": "沙巴树 100",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-01-27",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0101",
+      "displayId": "T0101",
+      "name": "沙巴树 101",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-11",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0102",
+      "displayId": "T0102",
+      "name": "沙巴树 102",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-01-12",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0103",
+      "displayId": "T0103",
+      "name": "沙巴树 103",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-09-25",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0104",
+      "displayId": "T0104",
+      "name": "沙巴树 104",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-01-03",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0105",
+      "displayId": "T0105",
+      "name": "沙巴树 105",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-04-08",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0106",
+      "displayId": "T0106",
+      "name": "沙巴树 106",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-12-19",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0107",
+      "displayId": "T0107",
+      "name": "沙巴树 107",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-11-30",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0108",
+      "displayId": "T0108",
+      "name": "沙巴树 108",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-05-01",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0109",
+      "displayId": "T0109",
+      "name": "沙巴树 109",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-02-13",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0110",
+      "displayId": "T0110",
+      "name": "沙巴树 110",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-06-14",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0111",
+      "displayId": "T0111",
+      "name": "沙巴树 111",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-05-26",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0112",
+      "displayId": "T0112",
+      "name": "沙巴树 112",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-01-09",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0113",
+      "displayId": "T0113",
+      "name": "沙巴树 113",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-09",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0114",
+      "displayId": "T0114",
+      "name": "沙巴树 114",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-07-26",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0115",
+      "displayId": "T0115",
+      "name": "沙巴树 115",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-10-13",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0116",
+      "displayId": "T0116",
+      "name": "沙巴树 116",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-02-27",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0117",
+      "displayId": "T0117",
+      "name": "沙巴树 117",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-02-03",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0118",
+      "displayId": "T0118",
+      "name": "沙巴树 118",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-07",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0119",
+      "displayId": "T0119",
+      "name": "沙巴树 119",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-08",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0120",
+      "displayId": "T0120",
+      "name": "沙巴树 120",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-01-28",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0121",
+      "displayId": "T0121",
+      "name": "沙巴树 121",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-04-27",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0122",
+      "displayId": "T0122",
+      "name": "沙巴树 122",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-04-09",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0123",
+      "displayId": "T0123",
+      "name": "沙巴树 123",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-12-13",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0124",
+      "displayId": "T0124",
+      "name": "沙巴树 124",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-09-20",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0125",
+      "displayId": "T0125",
+      "name": "沙巴树 125",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-07-15",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0126",
+      "displayId": "T0126",
+      "name": "沙巴树 126",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-07-05",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0127",
+      "displayId": "T0127",
+      "name": "沙巴树 127",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-05-12",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0128",
+      "displayId": "T0128",
+      "name": "沙巴树 128",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-05-13",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0129",
+      "displayId": "T0129",
+      "name": "沙巴树 129",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2025-03-19",
+      "ageYears": 1,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0130",
+      "displayId": "T0130",
+      "name": "沙巴树 130",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-09-15",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0131",
+      "displayId": "T0131",
+      "name": "沙巴树 131",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-09-10",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0132",
+      "displayId": "T0132",
+      "name": "沙巴树 132",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-06-12",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0133",
+      "displayId": "T0133",
+      "name": "沙巴树 133",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-10-05",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0134",
+      "displayId": "T0134",
+      "name": "沙巴树 134",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2023-08-30",
+      "ageYears": 3,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    },
+    {
+      "id": "tree-0135",
+      "displayId": "T0135",
+      "name": "沙巴树 135",
+      "variety": "沙巴",
+      "category": "growing",
+      "categoryLabel": "中苗树",
+      "status": "available",
+      "statusLabel": "可认养",
+      "history": "预计明年挂果",
+      "plantDate": "2024-08-26",
+      "ageYears": 2,
+      "description": "",
+      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "located": false,
+      "row": null,
+      "col": null,
+      "schematic": null,
+      "aerial": null,
+      "dotIndex": null
+    }
+  ],
+  "gallery": [
+    {
+      "id": "orchard-rows",
+      "src": "photos/real/real-orchard-rows-01.webp",
+      "jpg": "photos/real/real-orchard-rows-01.jpg",
+      "alt": "果园树行实拍",
+      "caption": "依山而种的果树行",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "jabuticaba",
+      "src": "photos/placeholder/placeholder-jabuticaba-closeup-960.webp",
+      "jpg": "photos/placeholder/placeholder-jabuticaba-closeup-960.jpg",
+      "srcset": {
+        "webp": [
+          "photos/placeholder/placeholder-jabuticaba-closeup-640.webp",
+          "photos/placeholder/placeholder-jabuticaba-closeup-960.webp",
+          "photos/placeholder/placeholder-jabuticaba-closeup-1280.webp"
+        ],
+        "jpg": [
+          "photos/placeholder/placeholder-jabuticaba-closeup-640.jpg",
+          "photos/placeholder/placeholder-jabuticaba-closeup-960.jpg",
+          "photos/placeholder/placeholder-jabuticaba-closeup-1280.jpg"
+        ]
+      },
+      "alt": "嘉宝果特写（示意图）",
+      "caption": "嘉宝果 · 树干结果",
+      "placeholder": true,
+      "shape": "tall"
+    },
+    {
+      "id": "tree-portrait",
+      "src": "photos/real/real-tree-portrait-01.webp",
+      "jpg": "photos/real/real-tree-portrait-01.jpg",
+      "alt": "单棵嘉宝果树实拍",
+      "caption": "一棵树的生长档案",
+      "placeholder": false,
+      "shape": "tall"
+    },
+    {
+      "id": "picking",
+      "src": "photos/placeholder/placeholder-picking-1280.webp",
+      "jpg": "photos/placeholder/placeholder-picking-1280.jpg",
+      "srcset": {
+        "webp": [
+          "photos/placeholder/placeholder-picking-960.webp",
+          "photos/placeholder/placeholder-picking-1280.webp",
+          "photos/placeholder/placeholder-picking-1600.webp"
+        ],
+        "jpg": [
+          "photos/placeholder/placeholder-picking-960.jpg",
+          "photos/placeholder/placeholder-picking-1280.jpg",
+          "photos/placeholder/placeholder-picking-1600.jpg"
+        ]
+      },
+      "alt": "采摘体验（示意图）",
+      "caption": "应季采摘",
+      "placeholder": true,
+      "shape": "wide"
+    },
+    {
+      "id": "stove",
+      "src": "photos/real/real-stove-01.webp",
+      "jpg": "photos/real/real-stove-01.jpg",
+      "alt": "柴火灶实拍",
+      "caption": "果园里的柴火灶",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "stove-courtyard",
+      "src": "photos/placeholder/placeholder-stove-courtyard-1280.webp",
+      "jpg": "photos/placeholder/placeholder-stove-courtyard-1280.jpg",
+      "srcset": {
+        "webp": [
+          "photos/placeholder/placeholder-stove-courtyard-960.webp",
+          "photos/placeholder/placeholder-stove-courtyard-1280.webp",
+          "photos/placeholder/placeholder-stove-courtyard-1600.webp"
+        ],
+        "jpg": [
+          "photos/placeholder/placeholder-stove-courtyard-960.jpg",
+          "photos/placeholder/placeholder-stove-courtyard-1280.jpg",
+          "photos/placeholder/placeholder-stove-courtyard-1600.jpg"
+        ]
+      },
+      "alt": "柴火饭庭院（示意图）",
+      "caption": "一桌慢火饭",
+      "placeholder": true,
+      "shape": "wide"
+    },
+    {
+      "id": "entrance",
+      "src": "photos/placeholder/placeholder-entrance-1280.webp",
+      "jpg": "photos/placeholder/placeholder-entrance-1280.jpg",
+      "srcset": {
+        "webp": [
+          "photos/placeholder/placeholder-entrance-960.webp",
+          "photos/placeholder/placeholder-entrance-1280.webp",
+          "photos/placeholder/placeholder-entrance-1600.webp"
+        ],
+        "jpg": [
+          "photos/placeholder/placeholder-entrance-960.jpg",
+          "photos/placeholder/placeholder-entrance-1280.jpg",
+          "photos/placeholder/placeholder-entrance-1600.jpg"
+        ]
+      },
+      "alt": "园区入口（示意图）",
+      "caption": "到园的路口",
+      "placeholder": true,
+      "shape": "wide"
+    }
+  ],
+  "treeDefaultPhoto": "photos/placeholder/placeholder-tree-default-960.webp"
+}
