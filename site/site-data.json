@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-25T13:05:00.598Z",
+    "generatedAt": "2026-10-25T14:55:57.799Z",
     "dataSource": "Data/trees.json + Data/settings.json + site-assets/",
     "treeCount": 98,
     "locatedCount": 98,
