@@ -5,16 +5,257 @@
       "source": "Data/images/img-1781540316306.jpg",
       "width": 1600,
       "height": 707,
-      "croppedBottomRatio": 0.12,
-      "note": "已裁掉手机水印底栏"
+      "croppedBottomRatio": 0.25,
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "果园树行，去除底部水印；无人物/人脸"
+    },
+    {
+      "key": "real-orchard-rows-02",
+      "source": "参考图片/果树/f9287514750155166deb678b803f265e.jpg",
+      "width": 1600,
+      "height": 900,
+      "croppedBottomRatio": 0.25,
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "果园全景，裁为 16:9，去除底部水印；无人物/人脸"
+    },
+    {
+      "key": "real-orchard-rows-03",
+      "source": "参考图片/果树/1929c942007dbed0e6c0ff695d46a7be.jpg",
+      "width": 1600,
+      "height": 900,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "果园树行，裁为 16:9，去除底部水印；无人物/人脸"
+    },
+    {
+      "key": "real-orchard-path-01",
+      "source": "参考图片/果园周边环境/407f3446945b8f931c3ca2c659ef1cef.jpg",
+      "width": 1600,
+      "height": 1200,
+      "croppedBottomRatio": 0.0,
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "入园小路，4:3 实拍；无人物/人脸"
+    },
+    {
+      "key": "real-orchard-steps-01",
+      "source": "参考图片/果园周边环境/24c12acd5b2fb3c27311c62b4ac451ed.jpg",
+      "width": 1600,
+      "height": 1200,
+      "croppedBottomRatio": 0.0,
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "入园石阶与石凳，4:3 实拍；无人物/人脸"
+    },
+    {
+      "key": "real-tree-portrait-02",
+      "source": "参考图片/果树/28a683cf126ca45ad9a94af6dd7a8981.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树冠与树干，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-tree-portrait-03",
+      "source": "参考图片/果树/bd5f475761eac5bdfc10a3d338660005.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树冠与树干，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-tree-portrait-04",
+      "source": "参考图片/果树/a625227d322127ba4877078cb059f199.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树冠与树干，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-tree-trunk-01",
+      "source": "参考图片/果树/c774f71566d1050ca2efd1348648a296.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "多干树干，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-trunk-01",
+      "source": "参考图片/果树/5c0b7592c70ca5027b0ac26354c8ac18.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树干结果特写，3:4 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-trunk-02",
+      "source": "参考图片/果树/07255ae4ef2b80b24cf29991d8cd599f.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树干果实，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-trunk-03",
+      "source": "参考图片/果树/34293d8a5b79a6beb11e2b59dd3cf473.jpg",
+      "width": 960,
+      "height": 720,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "树干果实，4:3 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-green-01",
+      "source": "参考图片/果树/f7cf0103f7e04c119dc282030caaec9e.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "青色幼果，3:4 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-flower-01",
+      "source": "参考图片/果树/5b6316b6ff4ef7ab09868f4e109d481f.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "满树白花，3:4 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-flower-02",
+      "source": "参考图片/果树/1b0907f80b43c94e08dab7dac969d5c4.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "白花与幼果，3:4 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-closeup-01",
+      "source": "参考图片/果树/6bb432b9a29850c353d91b802811d5e1.jpg",
+      "width": 1280,
+      "height": 960,
+      "croppedBottomRatio": 0.0,
+      "variants": [
+        480,
+        640,
+        960,
+        1280
+      ],
+      "note": "成熟果实堆叠，4:3 原图；无人物/人脸"
+    },
+    {
+      "key": "real-jabuticaba-closeup-02",
+      "source": "参考图片/果树/996a74de5cfa402582dab4107841f3ec.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "枝干上的红果，3:4 裁切；无人物/人脸"
+    },
+    {
+      "key": "real-orchard-hillside-01",
+      "source": "参考图片/果树/e0c9681434029128face551a2bd904c8.jpg",
+      "width": 960,
+      "height": 1280,
+      "croppedBottomRatio": 0.04,
+      "variants": [
+        480,
+        640,
+        960
+      ],
+      "note": "山坡果园，3:4 裁切；无人物/人脸"
     },
     {
       "key": "real-tree-portrait-01",
       "source": "Data/images/img-1781925763616.jpg",
       "width": 752,
       "height": 1600,
-      "croppedBottomRatio": 0.09,
-      "note": "已裁掉手机水印底栏"
+      "croppedBottomRatio": 0.1,
+      "variants": [
+        480,
+        640
+      ],
+      "note": "单棵树，去除底部水印；无人物/人脸"
     },
     {
       "key": "real-stove-01",
@@ -22,7 +263,14 @@
       "width": 1600,
       "height": 720,
       "croppedBottomRatio": 0.0,
-      "note": "原图"
+      "variants": [
+        480,
+        640,
+        960,
+        1280,
+        1600
+      ],
+      "note": "柴火灶原图；无人物/人脸"
     }
   ]
 }

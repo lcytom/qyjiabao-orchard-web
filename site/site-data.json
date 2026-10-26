@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-25T15:10:17.868Z",
+    "generatedAt": "2026-10-26T15:46:21.554Z",
     "dataSource": "Data/trees.json + Data/settings.json + site-assets/",
     "treeCount": 98,
     "locatedCount": 98,
     "dotCount": 98,
     "treeMappingNote": "3D 树位置来自航拍检测到的 98 个树位点；树身份按全局仿射最近邻匹配，相邻同品种树可能互换，不影响展示。",
-    "placeholderNotice": "页面中的 AI 图片与占位 Logo/二维码/3D 模型在替换前以“示意图”标注。"
+    "placeholderNotice": "园区照片均为果园实拍；Logo、二维码与 3D 模型仍为占位素材。"
   },
   "site": {
     "name": "青雲嘉宝果园",
@@ -212,15 +212,21 @@
           "placeholder": false
         },
         {
-          "src": "photos/placeholder/placeholder-jabuticaba-closeup-1280.webp",
-          "alt": "嘉宝果特写（示意图）",
+          "src": "photos/real/real-jabuticaba-closeup-01.webp",
+          "alt": "嘉宝果实拍",
           "caption": "树干上的嘉宝果",
-          "placeholder": true
+          "placeholder": false
         },
         {
-          "src": "photos/real/real-orchard-rows-01.webp",
-          "alt": "果园树行实拍",
+          "src": "photos/real/real-orchard-rows-02.webp",
+          "alt": "果园全景实拍",
           "caption": "依山而种的果树行",
+          "placeholder": false
+        },
+        {
+          "src": "photos/real/real-jabuticaba-flower-02.webp",
+          "alt": "嘉宝果白花实拍",
+          "caption": "开花时节",
           "placeholder": false
         }
       ],
@@ -244,9 +250,9 @@
       "title": "采摘体验",
       "desc": "成熟季进园，按品种和重量称重。出发前先问一句：今天开不开？",
       "action": "查看详情",
-      "hero": "photos/placeholder/placeholder-picking-1600.webp",
-      "heroAlt": "采摘体验（示意图）",
-      "heroPlaceholder": true,
+      "hero": "photos/real/real-orchard-rows-02.webp",
+      "heroAlt": "果园树行实拍",
+      "heroPlaceholder": false,
       "summary": "成熟季，来树下摘一筐。走进果树行，亲手摘下当季的嘉宝果，按品种与重量带走。",
       "facts": [
         {
@@ -377,21 +383,21 @@
       ],
       "gallery": [
         {
-          "src": "photos/placeholder/placeholder-picking-1280.webp",
-          "alt": "采摘体验（示意图）",
-          "caption": "成熟季的采摘",
-          "placeholder": true
-        },
-        {
-          "src": "photos/placeholder/placeholder-jabuticaba-closeup-1280.webp",
-          "alt": "嘉宝果特写（示意图）",
-          "caption": "树干上的嘉宝果",
-          "placeholder": true
-        },
-        {
-          "src": "photos/real/real-orchard-rows-01.webp",
+          "src": "photos/real/real-orchard-rows-03.webp",
           "alt": "果园树行实拍",
-          "caption": "依山而种的果树行",
+          "caption": "成熟季的果园",
+          "placeholder": false
+        },
+        {
+          "src": "photos/real/real-jabuticaba-closeup-02.webp",
+          "alt": "枝干红果实拍",
+          "caption": "枝干上的红果",
+          "placeholder": false
+        },
+        {
+          "src": "photos/real/real-jabuticaba-flower-01.webp",
+          "alt": "嘉宝果白花实拍",
+          "caption": "树干上的白花",
           "placeholder": false
         }
       ],
@@ -574,16 +580,16 @@
           "placeholder": false
         },
         {
-          "src": "photos/placeholder/placeholder-stove-courtyard-1280.webp",
-          "alt": "柴火饭庭院（示意图）",
-          "caption": "一桌慢火饭",
-          "placeholder": true
+          "src": "photos/real/real-orchard-path-01.webp",
+          "alt": "入园小路实拍",
+          "caption": "到园的小路",
+          "placeholder": false
         },
         {
-          "src": "photos/placeholder/placeholder-entrance-1280.webp",
-          "alt": "园区入口（示意图）",
-          "caption": "到园的路口",
-          "placeholder": true
+          "src": "photos/real/real-orchard-steps-01.webp",
+          "alt": "入园石阶实拍",
+          "caption": "石阶与石凳",
+          "placeholder": false
         }
       ],
       "related": [
@@ -1243,7 +1249,7 @@
       "plantDate": "2019-05-26",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 1,
       "col": 2,
@@ -1270,7 +1276,7 @@
       "plantDate": "2023-06-13",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 1,
       "col": 3,
@@ -1297,7 +1303,7 @@
       "plantDate": "2019-09-15",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 1,
       "col": 4,
@@ -1324,7 +1330,7 @@
       "plantDate": "2021-05-17",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 1,
       "col": 5,
@@ -1351,7 +1357,7 @@
       "plantDate": "2020-09-12",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 1,
       "col": 6,
@@ -1378,7 +1384,7 @@
       "plantDate": "2021-03-22",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 1,
       "col": 7,
@@ -1405,7 +1411,7 @@
       "plantDate": "2022-01-17",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 2,
       "col": 1,
@@ -1432,7 +1438,7 @@
       "plantDate": "2020-09-25",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 2,
       "col": 2,
@@ -1459,7 +1465,7 @@
       "plantDate": "2020-06-10",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 2,
       "col": 3,
@@ -1486,7 +1492,7 @@
       "plantDate": "2020-05-06",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 2,
       "col": 4,
@@ -1513,7 +1519,7 @@
       "plantDate": "2022-12-12",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 2,
       "col": 5,
@@ -1540,7 +1546,7 @@
       "plantDate": "2023-02-15",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 2,
       "col": 6,
@@ -1567,7 +1573,7 @@
       "plantDate": "2021-11-13",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 2,
       "col": 7,
@@ -1594,7 +1600,7 @@
       "plantDate": "2021-03-14",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 2,
       "col": 8,
@@ -1621,7 +1627,7 @@
       "plantDate": "2018-08-27",
       "ageYears": 8,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 2,
       "col": 9,
@@ -1648,7 +1654,7 @@
       "plantDate": "2022-09-24",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 2,
       "col": 10,
@@ -1675,7 +1681,7 @@
       "plantDate": "2019-12-13",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 3,
       "col": 1,
@@ -1702,7 +1708,7 @@
       "plantDate": "2019-06-24",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 3,
       "col": 2,
@@ -1729,7 +1735,7 @@
       "plantDate": "2018-11-05",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 3,
       "col": 3,
@@ -1756,7 +1762,7 @@
       "plantDate": "2018-12-06",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 3,
       "col": 4,
@@ -1783,7 +1789,7 @@
       "plantDate": "2018-11-05",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 3,
       "col": 5,
@@ -1810,7 +1816,7 @@
       "plantDate": "2019-09-15",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 3,
       "col": 6,
@@ -1837,7 +1843,7 @@
       "plantDate": "2020-11-10",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 3,
       "col": 7,
@@ -1864,7 +1870,7 @@
       "plantDate": "2023-01-25",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 3,
       "col": 8,
@@ -1891,7 +1897,7 @@
       "plantDate": "2020-04-17",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 3,
       "col": 9,
@@ -1918,7 +1924,7 @@
       "plantDate": "2020-10-06",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 4,
       "col": 2,
@@ -1945,7 +1951,7 @@
       "plantDate": "2021-06-16",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 4,
       "col": 3,
@@ -1972,7 +1978,7 @@
       "plantDate": "2021-06-12",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 4,
       "col": 4,
@@ -1999,7 +2005,7 @@
       "plantDate": "2023-04-18",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 4,
       "col": 5,
@@ -2026,7 +2032,7 @@
       "plantDate": "2020-08-18",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 4,
       "col": 6,
@@ -2053,7 +2059,7 @@
       "plantDate": "2019-02-26",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 4,
       "col": 7,
@@ -2080,7 +2086,7 @@
       "plantDate": "2023-04-06",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 4,
       "col": 8,
@@ -2107,7 +2113,7 @@
       "plantDate": "2022-10-03",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 4,
       "col": 1,
@@ -2134,7 +2140,7 @@
       "plantDate": "2019-11-23",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 5,
       "col": 1,
@@ -2161,7 +2167,7 @@
       "plantDate": "2021-09-30",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 5,
       "col": 2,
@@ -2188,7 +2194,7 @@
       "plantDate": "2022-02-21",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 5,
       "col": 3,
@@ -2215,7 +2221,7 @@
       "plantDate": "2022-12-19",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 5,
       "col": 4,
@@ -2242,7 +2248,7 @@
       "plantDate": "2018-07-13",
       "ageYears": 8,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 5,
       "col": 5,
@@ -2269,7 +2275,7 @@
       "plantDate": "2021-04-17",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 5,
       "col": 6,
@@ -2296,7 +2302,7 @@
       "plantDate": "2022-10-28",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 5,
       "col": 7,
@@ -2323,7 +2329,7 @@
       "plantDate": "2021-11-15",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 6,
       "col": 1,
@@ -2350,7 +2356,7 @@
       "plantDate": "2021-07-16",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 6,
       "col": 2,
@@ -2377,7 +2383,7 @@
       "plantDate": "2020-02-05",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 6,
       "col": 3,
@@ -2404,7 +2410,7 @@
       "plantDate": "2022-07-13",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 6,
       "col": 4,
@@ -2431,7 +2437,7 @@
       "plantDate": "2023-05-08",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 6,
       "col": 5,
@@ -2458,7 +2464,7 @@
       "plantDate": "2018-07-07",
       "ageYears": 8,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 7,
       "col": 1,
@@ -2485,7 +2491,7 @@
       "plantDate": "2018-11-18",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 7,
       "col": 2,
@@ -2512,7 +2518,7 @@
       "plantDate": "2021-06-13",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 7,
       "col": 3,
@@ -2539,7 +2545,7 @@
       "plantDate": "2022-11-13",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 7,
       "col": 4,
@@ -2566,7 +2572,7 @@
       "plantDate": "2019-08-27",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 7,
       "col": 5,
@@ -2593,7 +2599,7 @@
       "plantDate": "2020-07-26",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 7,
       "col": 6,
@@ -2620,7 +2626,7 @@
       "plantDate": "2021-08-19",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 7,
       "col": 7,
@@ -2647,7 +2653,7 @@
       "plantDate": "2018-09-23",
       "ageYears": 8,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 8,
       "col": 1,
@@ -2674,7 +2680,7 @@
       "plantDate": "2018-12-21",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 8,
       "col": 2,
@@ -2701,7 +2707,7 @@
       "plantDate": "2021-07-30",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 8,
       "col": 3,
@@ -2728,7 +2734,7 @@
       "plantDate": "2021-12-13",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 8,
       "col": 4,
@@ -2755,7 +2761,7 @@
       "plantDate": "2020-08-17",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 8,
       "col": 5,
@@ -2782,7 +2788,7 @@
       "plantDate": "2021-04-02",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 8,
       "col": 6,
@@ -2809,7 +2815,7 @@
       "plantDate": "2022-07-18",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 8,
       "col": 7,
@@ -2836,7 +2842,7 @@
       "plantDate": "2021-11-05",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 8,
       "col": 8,
@@ -2863,7 +2869,7 @@
       "plantDate": "2020-09-12",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 9,
       "col": 1,
@@ -2890,7 +2896,7 @@
       "plantDate": "2019-09-21",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 9,
       "col": 2,
@@ -2917,7 +2923,7 @@
       "plantDate": "2019-03-20",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 9,
       "col": 3,
@@ -2944,7 +2950,7 @@
       "plantDate": "2021-04-24",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 9,
       "col": 4,
@@ -2971,7 +2977,7 @@
       "plantDate": "2022-09-06",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 9,
       "col": 5,
@@ -2998,7 +3004,7 @@
       "plantDate": "2022-08-03",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 9,
       "col": 6,
@@ -3025,7 +3031,7 @@
       "plantDate": "2019-09-16",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 9,
       "col": 7,
@@ -3052,7 +3058,7 @@
       "plantDate": "2022-09-17",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 11,
       "col": 9,
@@ -3079,7 +3085,7 @@
       "plantDate": "2023-04-27",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 10,
       "col": 1,
@@ -3106,7 +3112,7 @@
       "plantDate": "2021-05-02",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 10,
       "col": 2,
@@ -3133,7 +3139,7 @@
       "plantDate": "2019-10-08",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 10,
       "col": 3,
@@ -3160,7 +3166,7 @@
       "plantDate": "2022-09-11",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 11,
       "col": 5,
@@ -3187,7 +3193,7 @@
       "plantDate": "2019-01-06",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 11,
       "col": 6,
@@ -3214,7 +3220,7 @@
       "plantDate": "2019-09-01",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 11,
       "col": 7,
@@ -3241,7 +3247,7 @@
       "plantDate": "2018-12-21",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 11,
       "col": 8,
@@ -3268,7 +3274,7 @@
       "plantDate": "2020-01-12",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 11,
       "col": 2,
@@ -3295,7 +3301,7 @@
       "plantDate": "2022-04-15",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 11,
       "col": 3,
@@ -3322,7 +3328,7 @@
       "plantDate": "2019-06-10",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 11,
       "col": 4,
@@ -3349,7 +3355,7 @@
       "plantDate": "2020-03-07",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 12,
       "col": 5,
@@ -3376,7 +3382,7 @@
       "plantDate": "2021-02-27",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 12,
       "col": 6,
@@ -3403,7 +3409,7 @@
       "plantDate": "2020-04-11",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 12,
       "col": 7,
@@ -3430,7 +3436,7 @@
       "plantDate": "2020-05-23",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 12,
       "col": 8,
@@ -3457,7 +3463,7 @@
       "plantDate": "2018-06-19",
       "ageYears": 8,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 11,
       "col": 1,
@@ -3484,7 +3490,7 @@
       "plantDate": "2020-08-31",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 12,
       "col": 4,
@@ -3511,7 +3517,7 @@
       "plantDate": "2022-11-07",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 12,
       "col": 3,
@@ -3538,7 +3544,7 @@
       "plantDate": "2021-09-09",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 13,
       "col": 9,
@@ -3565,7 +3571,7 @@
       "plantDate": "2019-09-12",
       "ageYears": 7,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 12,
       "col": 1,
@@ -3592,7 +3598,7 @@
       "plantDate": "2021-11-14",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 12,
       "col": 2,
@@ -3619,7 +3625,7 @@
       "plantDate": "2022-06-29",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 13,
       "col": 4,
@@ -3646,7 +3652,7 @@
       "plantDate": "2023-03-28",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 13,
       "col": 5,
@@ -3673,7 +3679,7 @@
       "plantDate": "2019-11-20",
       "ageYears": 6,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 13,
       "col": 6,
@@ -3700,7 +3706,7 @@
       "plantDate": "2020-12-30",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 13,
       "col": 7,
@@ -3727,7 +3733,7 @@
       "plantDate": "2022-01-23",
       "ageYears": 4,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 13,
       "col": 8,
@@ -3754,7 +3760,7 @@
       "plantDate": "2021-06-20",
       "ageYears": 5,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-04.webp",
       "located": true,
       "row": 13,
       "col": 1,
@@ -3781,7 +3787,7 @@
       "plantDate": "2025-03-22",
       "ageYears": 1,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
       "row": 13,
       "col": 2,
@@ -3808,7 +3814,7 @@
       "plantDate": "2023-10-09",
       "ageYears": 3,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
       "row": 13,
       "col": 3,
@@ -3835,7 +3841,7 @@
       "plantDate": "2025-04-21",
       "ageYears": 1,
       "description": "",
-      "photo": "photos/placeholder/placeholder-tree-default-960.webp",
+      "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
       "row": 14,
       "col": 1,
@@ -3852,116 +3858,323 @@
   ],
   "gallery": [
     {
-      "id": "orchard-rows",
+      "id": "real-orchard-rows-01",
       "src": "photos/real/real-orchard-rows-01.webp",
       "jpg": "photos/real/real-orchard-rows-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-orchard-rows-01-640.webp",
+          "photos/real/real-orchard-rows-01-960.webp",
+          "photos/real/real-orchard-rows-01-1280.webp"
+        ],
+        "jpg": [
+          "photos/real/real-orchard-rows-01-640.jpg",
+          "photos/real/real-orchard-rows-01-960.jpg",
+          "photos/real/real-orchard-rows-01-1280.jpg"
+        ]
+      },
       "alt": "果园树行实拍",
       "caption": "依山而种的果树行",
       "placeholder": false,
       "shape": "wide"
     },
     {
-      "id": "jabuticaba",
-      "src": "photos/placeholder/placeholder-jabuticaba-closeup-960.webp",
-      "jpg": "photos/placeholder/placeholder-jabuticaba-closeup-960.jpg",
+      "id": "real-jabuticaba-closeup-01",
+      "src": "photos/real/real-jabuticaba-closeup-01.webp",
+      "jpg": "photos/real/real-jabuticaba-closeup-01.jpg",
       "srcset": {
         "webp": [
-          "photos/placeholder/placeholder-jabuticaba-closeup-640.webp",
-          "photos/placeholder/placeholder-jabuticaba-closeup-960.webp",
-          "photos/placeholder/placeholder-jabuticaba-closeup-1280.webp"
+          "photos/real/real-jabuticaba-closeup-01-480.webp",
+          "photos/real/real-jabuticaba-closeup-01-640.webp",
+          "photos/real/real-jabuticaba-closeup-01-960.webp"
         ],
         "jpg": [
-          "photos/placeholder/placeholder-jabuticaba-closeup-640.jpg",
-          "photos/placeholder/placeholder-jabuticaba-closeup-960.jpg",
-          "photos/placeholder/placeholder-jabuticaba-closeup-1280.jpg"
+          "photos/real/real-jabuticaba-closeup-01-480.jpg",
+          "photos/real/real-jabuticaba-closeup-01-640.jpg",
+          "photos/real/real-jabuticaba-closeup-01-960.jpg"
         ]
       },
-      "alt": "嘉宝果特写（示意图）",
-      "caption": "嘉宝果 · 树干结果",
-      "placeholder": true,
-      "shape": "tall"
+      "alt": "嘉宝果实拍",
+      "caption": "成熟的黑果",
+      "placeholder": false,
+      "shape": "wide"
     },
     {
-      "id": "tree-portrait",
-      "src": "photos/real/real-tree-portrait-01.webp",
-      "jpg": "photos/real/real-tree-portrait-01.jpg",
+      "id": "real-tree-portrait-02",
+      "src": "photos/real/real-tree-portrait-02.webp",
+      "jpg": "photos/real/real-tree-portrait-02.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-tree-portrait-02-480.webp",
+          "photos/real/real-tree-portrait-02-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-tree-portrait-02-480.jpg",
+          "photos/real/real-tree-portrait-02-640.jpg"
+        ]
+      },
       "alt": "单棵嘉宝果树实拍",
       "caption": "一棵树的生长档案",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-jabuticaba-flower-02",
+      "src": "photos/real/real-jabuticaba-flower-02.webp",
+      "jpg": "photos/real/real-jabuticaba-flower-02.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-flower-02-480.webp",
+          "photos/real/real-jabuticaba-flower-02-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-flower-02-480.jpg",
+          "photos/real/real-jabuticaba-flower-02-640.jpg"
+        ]
+      },
+      "alt": "嘉宝果白花实拍",
+      "caption": "树干上的白花",
       "placeholder": false,
       "shape": "tall"
     },
     {
-      "id": "picking",
-      "src": "photos/placeholder/placeholder-picking-1280.webp",
-      "jpg": "photos/placeholder/placeholder-picking-1280.jpg",
+      "id": "real-orchard-rows-02",
+      "src": "photos/real/real-orchard-rows-02.webp",
+      "jpg": "photos/real/real-orchard-rows-02.jpg",
       "srcset": {
         "webp": [
-          "photos/placeholder/placeholder-picking-960.webp",
-          "photos/placeholder/placeholder-picking-1280.webp",
-          "photos/placeholder/placeholder-picking-1600.webp"
+          "photos/real/real-orchard-rows-02-640.webp",
+          "photos/real/real-orchard-rows-02-960.webp",
+          "photos/real/real-orchard-rows-02-1280.webp"
         ],
         "jpg": [
-          "photos/placeholder/placeholder-picking-960.jpg",
-          "photos/placeholder/placeholder-picking-1280.jpg",
-          "photos/placeholder/placeholder-picking-1600.jpg"
+          "photos/real/real-orchard-rows-02-640.jpg",
+          "photos/real/real-orchard-rows-02-960.jpg",
+          "photos/real/real-orchard-rows-02-1280.jpg"
         ]
       },
-      "alt": "采摘体验（示意图）",
-      "caption": "应季采摘",
-      "placeholder": true,
+      "alt": "果园全景实拍",
+      "caption": "果园与树行",
+      "placeholder": false,
       "shape": "wide"
     },
     {
-      "id": "stove",
+      "id": "real-jabuticaba-trunk-01",
+      "src": "photos/real/real-jabuticaba-trunk-01.webp",
+      "jpg": "photos/real/real-jabuticaba-trunk-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-trunk-01-480.webp",
+          "photos/real/real-jabuticaba-trunk-01-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-trunk-01-480.jpg",
+          "photos/real/real-jabuticaba-trunk-01-640.jpg"
+        ]
+      },
+      "alt": "树干结果实拍",
+      "caption": "果实长在树干上",
+      "placeholder": false,
+      "shape": "tall"
+    },
+    {
+      "id": "real-jabuticaba-trunk-02",
+      "src": "photos/real/real-jabuticaba-trunk-02.webp",
+      "jpg": "photos/real/real-jabuticaba-trunk-02.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-trunk-02-480.webp",
+          "photos/real/real-jabuticaba-trunk-02-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-trunk-02-480.jpg",
+          "photos/real/real-jabuticaba-trunk-02-640.jpg"
+        ]
+      },
+      "alt": "树干果实实拍",
+      "caption": "果实挂满树干",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-jabuticaba-trunk-03",
+      "src": "photos/real/real-jabuticaba-trunk-03.webp",
+      "jpg": "photos/real/real-jabuticaba-trunk-03.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-trunk-03-480.webp",
+          "photos/real/real-jabuticaba-trunk-03-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-trunk-03-480.jpg",
+          "photos/real/real-jabuticaba-trunk-03-640.jpg"
+        ]
+      },
+      "alt": "树干果实实拍",
+      "caption": "树干上的果串",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-orchard-hillside-01",
+      "src": "photos/real/real-orchard-hillside-01.webp",
+      "jpg": "photos/real/real-orchard-hillside-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-orchard-hillside-01-480.webp",
+          "photos/real/real-orchard-hillside-01-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-orchard-hillside-01-480.jpg",
+          "photos/real/real-orchard-hillside-01-640.jpg"
+        ]
+      },
+      "alt": "山坡果园实拍",
+      "caption": "依山而种的坡地",
+      "placeholder": false,
+      "shape": "tall"
+    },
+    {
+      "id": "real-jabuticaba-green-01",
+      "src": "photos/real/real-jabuticaba-green-01.webp",
+      "jpg": "photos/real/real-jabuticaba-green-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-green-01-480.webp",
+          "photos/real/real-jabuticaba-green-01-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-green-01-480.jpg",
+          "photos/real/real-jabuticaba-green-01-640.jpg"
+        ]
+      },
+      "alt": "青色幼果实拍",
+      "caption": "未成熟的青色幼果",
+      "placeholder": false,
+      "shape": "tall"
+    },
+    {
+      "id": "real-jabuticaba-closeup-02",
+      "src": "photos/real/real-jabuticaba-closeup-02.webp",
+      "jpg": "photos/real/real-jabuticaba-closeup-02.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-jabuticaba-closeup-02-480.webp",
+          "photos/real/real-jabuticaba-closeup-02-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-jabuticaba-closeup-02-480.jpg",
+          "photos/real/real-jabuticaba-closeup-02-640.jpg"
+        ]
+      },
+      "alt": "枝干红果实拍",
+      "caption": "枝干上的红果",
+      "placeholder": false,
+      "shape": "tall"
+    },
+    {
+      "id": "real-orchard-path-01",
+      "src": "photos/real/real-orchard-path-01.webp",
+      "jpg": "photos/real/real-orchard-path-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-orchard-path-01-640.webp",
+          "photos/real/real-orchard-path-01-960.webp",
+          "photos/real/real-orchard-path-01-1280.webp"
+        ],
+        "jpg": [
+          "photos/real/real-orchard-path-01-640.jpg",
+          "photos/real/real-orchard-path-01-960.jpg",
+          "photos/real/real-orchard-path-01-1280.jpg"
+        ]
+      },
+      "alt": "入园小路实拍",
+      "caption": "到果园的小路",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-orchard-steps-01",
+      "src": "photos/real/real-orchard-steps-01.webp",
+      "jpg": "photos/real/real-orchard-steps-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-orchard-steps-01-640.webp",
+          "photos/real/real-orchard-steps-01-960.webp",
+          "photos/real/real-orchard-steps-01-1280.webp"
+        ],
+        "jpg": [
+          "photos/real/real-orchard-steps-01-640.jpg",
+          "photos/real/real-orchard-steps-01-960.jpg",
+          "photos/real/real-orchard-steps-01-1280.jpg"
+        ]
+      },
+      "alt": "入园石阶实拍",
+      "caption": "石阶与石凳",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-orchard-rows-03",
+      "src": "photos/real/real-orchard-rows-03.webp",
+      "jpg": "photos/real/real-orchard-rows-03.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-orchard-rows-03-640.webp",
+          "photos/real/real-orchard-rows-03-960.webp",
+          "photos/real/real-orchard-rows-03-1280.webp"
+        ],
+        "jpg": [
+          "photos/real/real-orchard-rows-03-640.jpg",
+          "photos/real/real-orchard-rows-03-960.jpg",
+          "photos/real/real-orchard-rows-03-1280.jpg"
+        ]
+      },
+      "alt": "果园树行实拍",
+      "caption": "草坡上的果树行",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-tree-trunk-01",
+      "src": "photos/real/real-tree-trunk-01.webp",
+      "jpg": "photos/real/real-tree-trunk-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-tree-trunk-01-480.webp",
+          "photos/real/real-tree-trunk-01-640.webp"
+        ],
+        "jpg": [
+          "photos/real/real-tree-trunk-01-480.jpg",
+          "photos/real/real-tree-trunk-01-640.jpg"
+        ]
+      },
+      "alt": "树干特写实拍",
+      "caption": "多干的树干",
+      "placeholder": false,
+      "shape": "wide"
+    },
+    {
+      "id": "real-stove-01",
       "src": "photos/real/real-stove-01.webp",
       "jpg": "photos/real/real-stove-01.jpg",
+      "srcset": {
+        "webp": [
+          "photos/real/real-stove-01-640.webp",
+          "photos/real/real-stove-01-960.webp",
+          "photos/real/real-stove-01-1280.webp"
+        ],
+        "jpg": [
+          "photos/real/real-stove-01-640.jpg",
+          "photos/real/real-stove-01-960.jpg",
+          "photos/real/real-stove-01-1280.jpg"
+        ]
+      },
       "alt": "柴火灶实拍",
       "caption": "果园里的柴火灶",
       "placeholder": false,
       "shape": "wide"
-    },
-    {
-      "id": "stove-courtyard",
-      "src": "photos/placeholder/placeholder-stove-courtyard-1280.webp",
-      "jpg": "photos/placeholder/placeholder-stove-courtyard-1280.jpg",
-      "srcset": {
-        "webp": [
-          "photos/placeholder/placeholder-stove-courtyard-960.webp",
-          "photos/placeholder/placeholder-stove-courtyard-1280.webp",
-          "photos/placeholder/placeholder-stove-courtyard-1600.webp"
-        ],
-        "jpg": [
-          "photos/placeholder/placeholder-stove-courtyard-960.jpg",
-          "photos/placeholder/placeholder-stove-courtyard-1280.jpg",
-          "photos/placeholder/placeholder-stove-courtyard-1600.jpg"
-        ]
-      },
-      "alt": "柴火饭庭院（示意图）",
-      "caption": "一桌慢火饭",
-      "placeholder": true,
-      "shape": "wide"
-    },
-    {
-      "id": "entrance",
-      "src": "photos/placeholder/placeholder-entrance-1280.webp",
-      "jpg": "photos/placeholder/placeholder-entrance-1280.jpg",
-      "srcset": {
-        "webp": [
-          "photos/placeholder/placeholder-entrance-960.webp",
-          "photos/placeholder/placeholder-entrance-1280.webp",
-          "photos/placeholder/placeholder-entrance-1600.webp"
-        ],
-        "jpg": [
-          "photos/placeholder/placeholder-entrance-960.jpg",
-          "photos/placeholder/placeholder-entrance-1280.jpg",
-          "photos/placeholder/placeholder-entrance-1600.jpg"
-        ]
-      },
-      "alt": "园区入口（示意图）",
-      "caption": "到园的路口",
-      "placeholder": true,
-      "shape": "wide"
     }
   ],
-  "treeDefaultPhoto": "photos/placeholder/placeholder-tree-default-960.webp"
+  "treeDefaultPhoto": "photos/real/real-tree-portrait-02.webp"
 }
