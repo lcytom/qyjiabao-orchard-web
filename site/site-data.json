@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2026-10-27T16:23:01.471Z",
+    "generatedAt": "2026-10-27T16:40:19.684Z",
     "dataSource": "Data/trees.json + Data/settings.json + site-assets/",
     "treeCount": 98,
     "locatedCount": 98,
@@ -12,7 +12,7 @@
   "site": {
     "name": "青雲嘉宝果园",
     "tagline": "嘉宝果 · 数字果园",
-    "intro": "青雲嘉宝果园位于广西桂林灵川，依山而种，以沙巴嘉宝果为主。我们用真实航拍与数字孪生，让每一棵果树都能被看见、被了解。",
+    "intro": "青雲嘉宝果园位于广西桂林灵川，以沙巴嘉宝果为主。我们用真实航拍与数字孪生，让每一棵果树都能被看见、被了解。",
     "location": "广西桂林 · 灵川",
     "address": "广西桂林市灵川县（详细地址待补充）",
     "addressPending": true,
@@ -220,7 +220,7 @@
         {
           "src": "photos/real/real-orchard-rows-02.webp",
           "alt": "果园全景实拍",
-          "caption": "依山而种的果树行",
+          "caption": "成行的果树",
           "placeholder": false
         },
         {
@@ -309,7 +309,7 @@
             {
               "icon": "leaf",
               "title": "轻便的鞋",
-              "desc": "山坡和果树行不适合高跟鞋或拖鞋。"
+              "desc": "果园地面和果树行不适合高跟鞋或拖鞋。"
             },
             {
               "icon": "basket",
@@ -3874,7 +3874,7 @@
         ]
       },
       "alt": "果园树行实拍",
-      "caption": "依山而种的果树行",
+      "caption": "成行的果树",
       "placeholder": false,
       "shape": "wide"
     },
@@ -4029,8 +4029,8 @@
           "photos/real/real-orchard-hillside-01-640.jpg"
         ]
       },
-      "alt": "山坡果园实拍",
-      "caption": "依山而种的坡地",
+      "alt": "果园实拍",
+      "caption": "果树行",
       "placeholder": false,
       "shape": "tall"
     },
