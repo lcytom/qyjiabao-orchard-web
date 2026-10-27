@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://qyjiabaoweb-10k3n3e6.maozi.io/sitemap.xml
