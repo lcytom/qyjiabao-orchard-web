@@ -1,8 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://qyjiabaoweb-10k3n3e6.maozi.io/</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-rows-01.webp</image:loc>
+      <image:title>成行的果树</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-closeup-01.webp</image:loc>
+      <image:title>成熟的黑果</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-tree-portrait-02.webp</image:loc>
+      <image:title>一棵树的生长档案</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-flower-02.webp</image:loc>
+      <image:title>树干上的白花</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-rows-02.webp</image:loc>
+      <image:title>果园与树行</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-trunk-01.webp</image:loc>
+      <image:title>果实长在树干上</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-trunk-02.webp</image:loc>
+      <image:title>果实挂满树干</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-trunk-03.webp</image:loc>
+      <image:title>树干上的果串</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-hillside-01.webp</image:loc>
+      <image:title>果树行</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-green-01.webp</image:loc>
+      <image:title>未成熟的青色幼果</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-jabuticaba-closeup-02.webp</image:loc>
+      <image:title>枝干上的红果</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-path-01.webp</image:loc>
+      <image:title>到果园的小路</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-steps-01.webp</image:loc>
+      <image:title>石阶与石凳</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-orchard-rows-03.webp</image:loc>
+      <image:title>草坡上的果树行</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-tree-trunk-01.webp</image:loc>
+      <image:title>多干的树干</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://qyjiabaoweb-10k3n3e6.maozi.io/site/photos/real/real-stove-01.webp</image:loc>
+      <image:title>果园里的柴火灶</image:title>
+    </image:image>
   </url>
 </urlset>
