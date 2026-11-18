@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2026-11-12T15:54:11.882Z",
+    "generatedAt": "2026-11-18T16:37:13.690Z",
     "dataSource": "Data/trees.json + Data/settings.json + site-assets/",
     "treeCount": 98,
     "locatedCount": 98,
@@ -1699,7 +1699,7 @@
       "statusLabel": "可认养",
       "history": "已挂果 3 年，年产约 15kg",
       "plantDate": "2021-11-13",
-      "ageYears": 4,
+      "ageYears": 5,
       "description": "",
       "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
@@ -2455,7 +2455,7 @@
       "statusLabel": "可认养",
       "history": "已挂果 3 年，年产约 15kg",
       "plantDate": "2021-11-15",
-      "ageYears": 4,
+      "ageYears": 5,
       "description": "",
       "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
@@ -2617,7 +2617,7 @@
       "statusLabel": "可认养",
       "history": "已挂果 3 年，年产约 15kg",
       "plantDate": "2018-11-18",
-      "ageYears": 7,
+      "ageYears": 8,
       "description": "",
       "photo": "photos/real/real-tree-trunk-01.webp",
       "located": true,
@@ -2671,7 +2671,7 @@
       "statusLabel": "可认养",
       "history": "已挂果 3 年，年产约 15kg",
       "plantDate": "2022-11-13",
-      "ageYears": 3,
+      "ageYears": 4,
       "description": "",
       "photo": "photos/real/real-tree-portrait-03.webp",
       "located": true,
@@ -3724,7 +3724,7 @@
       "statusLabel": "可认养",
       "history": "已挂果 3 年，年产约 15kg",
       "plantDate": "2021-11-14",
-      "ageYears": 4,
+      "ageYears": 5,
       "description": "",
       "photo": "photos/real/real-tree-portrait-02.webp",
       "located": true,
@@ -3988,17 +3988,11 @@
     {
       "id": "real-orchard-rows-01",
       "src": "photos/real/real-orchard-rows-01.webp",
-      "jpg": "photos/real/real-orchard-rows-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-rows-01-640.webp",
           "photos/real/real-orchard-rows-01-960.webp",
           "photos/real/real-orchard-rows-01-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-rows-01-640.jpg",
-          "photos/real/real-orchard-rows-01-960.jpg",
-          "photos/real/real-orchard-rows-01-1280.jpg"
         ]
       },
       "alt": "果园树行实拍",
@@ -4009,17 +4003,11 @@
     {
       "id": "real-jabuticaba-closeup-01",
       "src": "photos/real/real-jabuticaba-closeup-01.webp",
-      "jpg": "photos/real/real-jabuticaba-closeup-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-closeup-01-480.webp",
           "photos/real/real-jabuticaba-closeup-01-640.webp",
           "photos/real/real-jabuticaba-closeup-01-960.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-closeup-01-480.jpg",
-          "photos/real/real-jabuticaba-closeup-01-640.jpg",
-          "photos/real/real-jabuticaba-closeup-01-960.jpg"
         ]
       },
       "alt": "嘉宝果实拍",
@@ -4030,15 +4018,10 @@
     {
       "id": "real-tree-portrait-02",
       "src": "photos/real/real-tree-portrait-02.webp",
-      "jpg": "photos/real/real-tree-portrait-02.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-tree-portrait-02-480.webp",
           "photos/real/real-tree-portrait-02-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-tree-portrait-02-480.jpg",
-          "photos/real/real-tree-portrait-02-640.jpg"
         ]
       },
       "alt": "单棵嘉宝果树实拍",
@@ -4049,15 +4032,10 @@
     {
       "id": "real-jabuticaba-flower-02",
       "src": "photos/real/real-jabuticaba-flower-02.webp",
-      "jpg": "photos/real/real-jabuticaba-flower-02.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-flower-02-480.webp",
           "photos/real/real-jabuticaba-flower-02-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-flower-02-480.jpg",
-          "photos/real/real-jabuticaba-flower-02-640.jpg"
         ]
       },
       "alt": "嘉宝果白花实拍",
@@ -4068,17 +4046,11 @@
     {
       "id": "real-orchard-rows-02",
       "src": "photos/real/real-orchard-rows-02.webp",
-      "jpg": "photos/real/real-orchard-rows-02.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-rows-02-640.webp",
           "photos/real/real-orchard-rows-02-960.webp",
           "photos/real/real-orchard-rows-02-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-rows-02-640.jpg",
-          "photos/real/real-orchard-rows-02-960.jpg",
-          "photos/real/real-orchard-rows-02-1280.jpg"
         ]
       },
       "alt": "果园全景实拍",
@@ -4089,15 +4061,10 @@
     {
       "id": "real-jabuticaba-trunk-01",
       "src": "photos/real/real-jabuticaba-trunk-01.webp",
-      "jpg": "photos/real/real-jabuticaba-trunk-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-trunk-01-480.webp",
           "photos/real/real-jabuticaba-trunk-01-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-trunk-01-480.jpg",
-          "photos/real/real-jabuticaba-trunk-01-640.jpg"
         ]
       },
       "alt": "树干结果实拍",
@@ -4108,15 +4075,10 @@
     {
       "id": "real-jabuticaba-trunk-02",
       "src": "photos/real/real-jabuticaba-trunk-02.webp",
-      "jpg": "photos/real/real-jabuticaba-trunk-02.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-trunk-02-480.webp",
           "photos/real/real-jabuticaba-trunk-02-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-trunk-02-480.jpg",
-          "photos/real/real-jabuticaba-trunk-02-640.jpg"
         ]
       },
       "alt": "树干果实实拍",
@@ -4127,15 +4089,10 @@
     {
       "id": "real-jabuticaba-trunk-03",
       "src": "photos/real/real-jabuticaba-trunk-03.webp",
-      "jpg": "photos/real/real-jabuticaba-trunk-03.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-trunk-03-480.webp",
           "photos/real/real-jabuticaba-trunk-03-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-trunk-03-480.jpg",
-          "photos/real/real-jabuticaba-trunk-03-640.jpg"
         ]
       },
       "alt": "树干果实实拍",
@@ -4146,15 +4103,10 @@
     {
       "id": "real-orchard-hillside-01",
       "src": "photos/real/real-orchard-hillside-01.webp",
-      "jpg": "photos/real/real-orchard-hillside-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-hillside-01-480.webp",
           "photos/real/real-orchard-hillside-01-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-hillside-01-480.jpg",
-          "photos/real/real-orchard-hillside-01-640.jpg"
         ]
       },
       "alt": "果园实拍",
@@ -4165,15 +4117,10 @@
     {
       "id": "real-jabuticaba-green-01",
       "src": "photos/real/real-jabuticaba-green-01.webp",
-      "jpg": "photos/real/real-jabuticaba-green-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-green-01-480.webp",
           "photos/real/real-jabuticaba-green-01-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-green-01-480.jpg",
-          "photos/real/real-jabuticaba-green-01-640.jpg"
         ]
       },
       "alt": "青色幼果实拍",
@@ -4184,15 +4131,10 @@
     {
       "id": "real-jabuticaba-closeup-02",
       "src": "photos/real/real-jabuticaba-closeup-02.webp",
-      "jpg": "photos/real/real-jabuticaba-closeup-02.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-jabuticaba-closeup-02-480.webp",
           "photos/real/real-jabuticaba-closeup-02-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-jabuticaba-closeup-02-480.jpg",
-          "photos/real/real-jabuticaba-closeup-02-640.jpg"
         ]
       },
       "alt": "枝干红果实拍",
@@ -4203,17 +4145,11 @@
     {
       "id": "real-orchard-path-01",
       "src": "photos/real/real-orchard-path-01.webp",
-      "jpg": "photos/real/real-orchard-path-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-path-01-640.webp",
           "photos/real/real-orchard-path-01-960.webp",
           "photos/real/real-orchard-path-01-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-path-01-640.jpg",
-          "photos/real/real-orchard-path-01-960.jpg",
-          "photos/real/real-orchard-path-01-1280.jpg"
         ]
       },
       "alt": "入园小路实拍",
@@ -4224,17 +4160,11 @@
     {
       "id": "real-orchard-steps-01",
       "src": "photos/real/real-orchard-steps-01.webp",
-      "jpg": "photos/real/real-orchard-steps-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-steps-01-640.webp",
           "photos/real/real-orchard-steps-01-960.webp",
           "photos/real/real-orchard-steps-01-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-steps-01-640.jpg",
-          "photos/real/real-orchard-steps-01-960.jpg",
-          "photos/real/real-orchard-steps-01-1280.jpg"
         ]
       },
       "alt": "入园石阶实拍",
@@ -4245,17 +4175,11 @@
     {
       "id": "real-orchard-rows-03",
       "src": "photos/real/real-orchard-rows-03.webp",
-      "jpg": "photos/real/real-orchard-rows-03.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-orchard-rows-03-640.webp",
           "photos/real/real-orchard-rows-03-960.webp",
           "photos/real/real-orchard-rows-03-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-orchard-rows-03-640.jpg",
-          "photos/real/real-orchard-rows-03-960.jpg",
-          "photos/real/real-orchard-rows-03-1280.jpg"
         ]
       },
       "alt": "果园树行实拍",
@@ -4266,15 +4190,10 @@
     {
       "id": "real-tree-trunk-01",
       "src": "photos/real/real-tree-trunk-01.webp",
-      "jpg": "photos/real/real-tree-trunk-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-tree-trunk-01-480.webp",
           "photos/real/real-tree-trunk-01-640.webp"
-        ],
-        "jpg": [
-          "photos/real/real-tree-trunk-01-480.jpg",
-          "photos/real/real-tree-trunk-01-640.jpg"
         ]
       },
       "alt": "树干特写实拍",
@@ -4285,17 +4204,11 @@
     {
       "id": "real-stove-01",
       "src": "photos/real/real-stove-01.webp",
-      "jpg": "photos/real/real-stove-01.jpg",
       "srcset": {
         "webp": [
           "photos/real/real-stove-01-640.webp",
           "photos/real/real-stove-01-960.webp",
           "photos/real/real-stove-01-1280.webp"
-        ],
-        "jpg": [
-          "photos/real/real-stove-01-640.jpg",
-          "photos/real/real-stove-01-960.jpg",
-          "photos/real/real-stove-01-1280.jpg"
         ]
       },
       "alt": "柴火灶实拍",
